@@ -1,0 +1,992 @@
+uguale
+WARNING: Default time step is used for VCD tracing.
+uguale
+[ROM]   1500 ns: read 1ffc: 00
+uguale
+[ROM]   2500 ns: read 0100: ff
+[ROM]   3000 ns: read 01ff: ff
+[ROM]   3500 ns: read 01fe: ff
+[ROM]   4000 ns: read 1ffc: 00
+[ROM]   4500 ns: read 1ffd: fe
+[ROM]   5000 ns: read 1e00: d8
+uguale
+[ROM]   6000 ns: read 01fd: ff
+[RAM]   6500 ns: wrote: 01fd with fe
+[ROM]   6500 ns: read 01fc: ff
+[RAM]   7000 ns: wrote: 01fc with 00
+[ROM]   7000 ns: read 01fb: ff
+[RAM]   7500 ns: wrote: 01fb with 04
+[ROM]   7500 ns: read 1ffa: d7
+[ROM]   8000 ns: read 1ffb: fe
+[ROM]   8500 ns: read 1ed7: 48
+[ROM]   9000 ns: read 1ed8: e6
+[ROM]   9500 ns: read 01fa: ff
+[RAM]  10000 ns: wrote: 01fa with 00
+[ROM]  10000 ns: read 1ed8: e6
+[ROM]  10500 ns: read 1ed9: 06
+[ROM]  11000 ns: read 0006: 4c
+uguale
+uguale
+[ROM]  12000 ns: read 0006: 4c
+[RAM]  12500 ns: wrote: 0006 with 01
+[ROM]  12500 ns: read 1eda: a5
+[ROM]  13000 ns: read 1edb: 06
+[ROM]  13500 ns: read 0006: 4c
+[ROM]  14000 ns: read 1edc: 8d
+[ROM]  14500 ns: read 1edd: 00
+[ROM]  15000 ns: read 1ede: da
+[ROM]  15500 ns: read 1a00: ff
+[ROM]  16000 ns: read 1edf: 68
+[ROM]  16500 ns: read 1ee0: 40
+[ROM]  17000 ns: read 01fa: ff
+[ROM]  17500 ns: read 1ee0: 40
+[ROM]  18000 ns: read 01fa: ff
+[ROM]  18500 ns: read 01fb: ff
+[ROM]  19000 ns: read 01fc: ff
+[ROM]  19500 ns: read 01fd: ff
+[ROM]  20000 ns: read 1e00: d8
+[ROM]  20500 ns: read 1e01: a2
+uguale
+[ROM]  21500 ns: read 1e02: ff
+[ROM]  22000 ns: read 1e03: 86
+[ROM]  22500 ns: read 1e04: 06
+[ROM]  23000 ns: read 0006: 4c
+[RAM]  23500 ns: wrote: 0006 with ff
+[ROM]  23500 ns: read 1e05: 9a
+[ROM]  24000 ns: read 1e06: a2
+uguale
+[ROM]  25000 ns: read 1e07: 00
+[ROM]  25500 ns: read 1e08: 86
+[ROM]  26000 ns: read 1e09: 02
+[ROM]  26500 ns: read 0002: 30
+[RAM]  27000 ns: wrote: 0002 with 00
+[ROM]  27000 ns: read 1e0a: a0
+[ROM]  27500 ns: read 1e0b: c0
+[ROM]  28000 ns: read 1e0c: 84
+[ROM]  28500 ns: read 1e0d: 03
+[ROM]  29000 ns: read 0003: 05
+[RAM]  29500 ns: wrote: 0003 with c0
+[ROM]  29500 ns: read 1e0e: 00
+[ROM]  30000 ns: read 1e0f: 00
+[ROM]  30500 ns: read 01ff: ff
+[RAM]  31000 ns: wrote: 01ff with fe
+[ROM]  31000 ns: read 01fe: ff
+[RAM]  31500 ns: wrote: 01fe with 10
+[ROM]  31500 ns: read 01fd: ff
+[RAM]  32000 ns: wrote: 01fd with 94
+[ROM]  32000 ns: read 1ffe: cf
+[ROM]  32500 ns: read 1fff: fe
+[ROM]  33000 ns: read 1ecf: a2
+[ROM]  33500 ns: read 1ed0: 08
+[ROM]  34000 ns: read 1ed1: a0
+[ROM]  34500 ns: read 1ed2: ff
+[ROM]  35000 ns: read 1ed3: 20
+[ROM]  35500 ns: read 1ed4: 97
+[ROM]  36000 ns: read 1ed5: fe
+[ROM]  36500 ns: read 01fc: ff
+[RAM]  37000 ns: wrote: 01fc with fe
+[ROM]  37000 ns: read 01fb: ff
+[RAM]  37500 ns: wrote: 01fb with d5
+[ROM]  37500 ns: read 1ed5: fe
+[ROM]  38000 ns: read 1e97: 86
+[ROM]  38500 ns: read 1e98: 00
+[ROM]  39000 ns: read 0000: a9
+[RAM]  39500 ns: wrote: 0000 with 08
+[ROM]  39500 ns: read 1e99: 84
+[ROM]  40000 ns: read 1e9a: 01
+[ROM]  40500 ns: read 0001: 80
+[RAM]  41000 ns: wrote: 0001 with ff
+[ROM]  41000 ns: read 1e9b: a0
+[ROM]  41500 ns: read 1e9c: 00
+[ROM]  42000 ns: read 1e9d: b1
+[ROM]  42500 ns: read 1e9e: 00
+[ROM]  43000 ns: read 0000: a9
+[ROM]  43500 ns: read 0001: 80
+[ROM]  44000 ns: read 1f08: 42
+[ROM]  44500 ns: read 1e9f: f0
+[ROM]  45000 ns: read 1ea0: 06
+[ROM]  45500 ns: read 1ea1: 20
+[ROM]  46000 ns: read 1ea2: a8
+[ROM]  46500 ns: read 1ea3: fe
+[ROM]  47000 ns: read 01fa: ff
+[RAM]  47500 ns: wrote: 01fa with fe
+[ROM]  47500 ns: read 01f9: ff
+[RAM]  48000 ns: wrote: 01f9 with a3
+[ROM]  48000 ns: read 1ea3: fe
+[ROM]  48500 ns: read 1ea8: a2
+[ROM]  49000 ns: read 1ea9: 00
+[ROM]  49500 ns: read 1eaa: a1
+[ROM]  50000 ns: read 1eab: 00
+[ROM]  50500 ns: read 1eac: e6
+[ROM]  51000 ns: read 0000: a9
+[ROM]  51500 ns: read 0001: 80
+[ROM]  52000 ns: read 1f08: 42
+[ROM]  52500 ns: read 1eac: e6
+[ROM]  53000 ns: read 1ead: 00
+[ROM]  53500 ns: read 0000: a9
+uguale
+uguale
+[ROM]  54500 ns: read 0000: a9
+[RAM]  55000 ns: wrote: 0000 with 09
+[ROM]  55000 ns: read 1eae: d0
+[ROM]  55500 ns: read 1eaf: 02
+[ROM]  56000 ns: read 1eb0: e6
+[ROM]  56500 ns: read 1eb2: 48
+[ROM]  57000 ns: read 1eb3: ad
+[ROM]  57500 ns: read 01f8: ff
+[RAM]  58000 ns: wrote: 01f8 with 42
+[ROM]  58000 ns: read 1eb3: ad
+[ROM]  58500 ns: read 1eb4: 01
+[ROM]  59000 ns: read 1eb5: df
+[ROM]  59500 ns: read 1f01: 4d
+[ROM]  60000 ns: read 1eb6: 29
+[ROM]  60500 ns: read 1eb7: 20
+[ROM]  61000 ns: read 1eb8: d0
+[ROM]  61500 ns: read 1eb9: f9
+[ROM]  62000 ns: read 1eba: 68
+[ROM]  62500 ns: read 1ebb: 8d
+[ROM]  63000 ns: read 01f8: ff
+[ROM]  63500 ns: read 1ebb: 8d
+[ROM]  64000 ns: read 1ebc: 00
+[ROM]  64500 ns: read 1ebd: df
+[ROM]  65000 ns: read 1f00: 4f
+[ROM]  65500 ns: read 1ebe: c9
+[ROM]  66000 ns: read 1ebf: 40
+[ROM]  66500 ns: read 1ec0: 90
+[ROM]  67000 ns: read 1ec1: 02
+[ROM]  67500 ns: read 1ec2: e9
+[ROM]  68000 ns: read 1ec3: 40
+[ROM]  68500 ns: read 1ec4: a2
+[ROM]  69000 ns: read 1ec5: 02
+[ROM]  69500 ns: read 1ec6: 81
+[ROM]  70000 ns: read 1ec7: 00
+[ROM]  70500 ns: read 1ec8: e6
+[ROM]  71000 ns: read 0002: 30
+[ROM]  71500 ns: read 0003: 05
+[ROM]  72000 ns: read 0000: a9
+[ROM]  72500 ns: read 1ec8: e6
+[ROM]  73000 ns: read 1ec9: 02
+[ROM]  73500 ns: read 0002: 30
+uguale
+uguale
+[ROM]  74500 ns: read 0002: 30
+[RAM]  75000 ns: wrote: 0002 with 01
+[ROM]  75000 ns: read 1eca: d0
+[ROM]  75500 ns: read 1ecb: 02
+[ROM]  76000 ns: read 1ecc: e6
+[ROM]  76500 ns: read 1ece: 60
+[ROM]  77000 ns: read 01f8: ff
+[ROM]  77500 ns: read 01f9: ff
+[ROM]  78000 ns: read 01fa: ff
+uguale
+[ROM]  79000 ns: read 1ea4: 4c
+[ROM]  79500 ns: read 1ea5: 9b
+[ROM]  80000 ns: read 1ea6: fe
+[ROM]  80500 ns: read 1e9b: a0
+[ROM]  81000 ns: read 1e9c: 00
+[ROM]  81500 ns: read 1e9d: b1
+[ROM]  82000 ns: read 1e9e: 00
+[ROM]  82500 ns: read 0000: a9
+[ROM]  83000 ns: read 0001: 80
+[ROM]  83500 ns: read 1f09: 52
+[ROM]  84000 ns: read 1e9f: f0
+[ROM]  84500 ns: read 1ea0: 06
+[ROM]  85000 ns: read 1ea1: 20
+[ROM]  85500 ns: read 1ea2: a8
+[ROM]  86000 ns: read 1ea3: fe
+[ROM]  86500 ns: read 01fa: ff
+[RAM]  87000 ns: wrote: 01fa with fe
+[ROM]  87000 ns: read 01f9: ff
+[RAM]  87500 ns: wrote: 01f9 with a3
+[ROM]  87500 ns: read 1ea3: fe
+[ROM]  88000 ns: read 1ea8: a2
+[ROM]  88500 ns: read 1ea9: 00
+[ROM]  89000 ns: read 1eaa: a1
+[ROM]  89500 ns: read 1eab: 00
+[ROM]  90000 ns: read 1eac: e6
+[ROM]  90500 ns: read 0000: a9
+[ROM]  91000 ns: read 0001: 80
+[ROM]  91500 ns: read 1f09: 52
+[ROM]  92000 ns: read 1eac: e6
+[ROM]  92500 ns: read 1ead: 00
+[ROM]  93000 ns: read 0000: a9
+uguale
+uguale
+[ROM]  94000 ns: read 0000: a9
+[RAM]  94500 ns: wrote: 0000 with 0a
+[ROM]  94500 ns: read 1eae: d0
+[ROM]  95000 ns: read 1eaf: 02
+[ROM]  95500 ns: read 1eb0: e6
+[ROM]  96000 ns: read 1eb2: 48
+[ROM]  96500 ns: read 1eb3: ad
+[ROM]  97000 ns: read 01f8: ff
+[RAM]  97500 ns: wrote: 01f8 with 52
+[ROM]  97500 ns: read 1eb3: ad
+[ROM]  98000 ns: read 1eb4: 01
+[ROM]  98500 ns: read 1eb5: df
+[ROM]  99000 ns: read 1f01: 4d
+[ROM]  99500 ns: read 1eb6: 29
+[ROM] 100000 ns: read 1eb7: 20
+[ROM] 100500 ns: read 1eb8: d0
+[ROM] 101000 ns: read 1eb9: f9
+[ROM] 101500 ns: read 1eba: 68
+[ROM] 102000 ns: read 1ebb: 8d
+[ROM] 102500 ns: read 01f8: ff
+[ROM] 103000 ns: read 1ebb: 8d
+[ROM] 103500 ns: read 1ebc: 00
+[ROM] 104000 ns: read 1ebd: df
+[ROM] 104500 ns: read 1f00: 4f
+[ROM] 105000 ns: read 1ebe: c9
+[ROM] 105500 ns: read 1ebf: 40
+[ROM] 106000 ns: read 1ec0: 90
+[ROM] 106500 ns: read 1ec1: 02
+[ROM] 107000 ns: read 1ec2: e9
+[ROM] 107500 ns: read 1ec3: 40
+[ROM] 108000 ns: read 1ec4: a2
+[ROM] 108500 ns: read 1ec5: 02
+[ROM] 109000 ns: read 1ec6: 81
+[ROM] 109500 ns: read 1ec7: 00
+[ROM] 110000 ns: read 1ec8: e6
+[ROM] 110500 ns: read 0002: 30
+[ROM] 111000 ns: read 0003: 05
+[ROM] 111500 ns: read 0001: 80
+[ROM] 112000 ns: read 1ec8: e6
+[ROM] 112500 ns: read 1ec9: 02
+[ROM] 113000 ns: read 0002: 30
+uguale
+uguale
+[ROM] 114000 ns: read 0002: 30
+[RAM] 114500 ns: wrote: 0002 with 02
+[ROM] 114500 ns: read 1eca: d0
+[ROM] 115000 ns: read 1ecb: 02
+[ROM] 115500 ns: read 1ecc: e6
+[ROM] 116000 ns: read 1ece: 60
+[ROM] 116500 ns: read 01f8: ff
+[ROM] 117000 ns: read 01f9: ff
+[ROM] 117500 ns: read 01fa: ff
+uguale
+[ROM] 118500 ns: read 1ea4: 4c
+[ROM] 119000 ns: read 1ea5: 9b
+[ROM] 119500 ns: read 1ea6: fe
+[ROM] 120000 ns: read 1e9b: a0
+[ROM] 120500 ns: read 1e9c: 00
+[ROM] 121000 ns: read 1e9d: b1
+[ROM] 121500 ns: read 1e9e: 00
+[ROM] 122000 ns: read 0000: a9
+[ROM] 122500 ns: read 0001: 80
+[ROM] 123000 ns: read 1f0a: 4f
+[ROM] 123500 ns: read 1e9f: f0
+[ROM] 124000 ns: read 1ea0: 06
+[ROM] 124500 ns: read 1ea1: 20
+[ROM] 125000 ns: read 1ea2: a8
+[ROM] 125500 ns: read 1ea3: fe
+[ROM] 126000 ns: read 01fa: ff
+[RAM] 126500 ns: wrote: 01fa with fe
+[ROM] 126500 ns: read 01f9: ff
+[RAM] 127000 ns: wrote: 01f9 with a3
+[ROM] 127000 ns: read 1ea3: fe
+[ROM] 127500 ns: read 1ea8: a2
+[ROM] 128000 ns: read 1ea9: 00
+[ROM] 128500 ns: read 1eaa: a1
+[ROM] 129000 ns: read 1eab: 00
+[ROM] 129500 ns: read 1eac: e6
+[ROM] 130000 ns: read 0000: a9
+[ROM] 130500 ns: read 0001: 80
+[ROM] 131000 ns: read 1f0a: 4f
+[ROM] 131500 ns: read 1eac: e6
+[ROM] 132000 ns: read 1ead: 00
+[ROM] 132500 ns: read 0000: a9
+uguale
+uguale
+[ROM] 133500 ns: read 0000: a9
+[RAM] 134000 ns: wrote: 0000 with 0b
+[ROM] 134000 ns: read 1eae: d0
+[ROM] 134500 ns: read 1eaf: 02
+[ROM] 135000 ns: read 1eb0: e6
+[ROM] 135500 ns: read 1eb2: 48
+[ROM] 136000 ns: read 1eb3: ad
+[ROM] 136500 ns: read 01f8: ff
+[RAM] 137000 ns: wrote: 01f8 with 4f
+[ROM] 137000 ns: read 1eb3: ad
+[ROM] 137500 ns: read 1eb4: 01
+[ROM] 138000 ns: read 1eb5: df
+[ROM] 138500 ns: read 1f01: 4d
+[ROM] 139000 ns: read 1eb6: 29
+[ROM] 139500 ns: read 1eb7: 20
+[ROM] 140000 ns: read 1eb8: d0
+[ROM] 140500 ns: read 1eb9: f9
+[ROM] 141000 ns: read 1eba: 68
+[ROM] 141500 ns: read 1ebb: 8d
+[ROM] 142000 ns: read 01f8: ff
+[ROM] 142500 ns: read 1ebb: 8d
+[ROM] 143000 ns: read 1ebc: 00
+[ROM] 143500 ns: read 1ebd: df
+[ROM] 144000 ns: read 1f00: 4f
+[ROM] 144500 ns: read 1ebe: c9
+[ROM] 145000 ns: read 1ebf: 40
+[ROM] 145500 ns: read 1ec0: 90
+[ROM] 146000 ns: read 1ec1: 02
+[ROM] 146500 ns: read 1ec2: e9
+[ROM] 147000 ns: read 1ec3: 40
+[ROM] 147500 ns: read 1ec4: a2
+[ROM] 148000 ns: read 1ec5: 02
+[ROM] 148500 ns: read 1ec6: 81
+[ROM] 149000 ns: read 1ec7: 00
+[ROM] 149500 ns: read 1ec8: e6
+[ROM] 150000 ns: read 0002: 30
+[ROM] 150500 ns: read 0003: 05
+[ROM] 151000 ns: read 0002: 30
+[ROM] 151500 ns: read 1ec8: e6
+[ROM] 152000 ns: read 1ec9: 02
+[ROM] 152500 ns: read 0002: 30
+uguale
+uguale
+[ROM] 153500 ns: read 0002: 30
+[RAM] 154000 ns: wrote: 0002 with 03
+[ROM] 154000 ns: read 1eca: d0
+[ROM] 154500 ns: read 1ecb: 02
+[ROM] 155000 ns: read 1ecc: e6
+[ROM] 155500 ns: read 1ece: 60
+[ROM] 156000 ns: read 01f8: ff
+[ROM] 156500 ns: read 01f9: ff
+[ROM] 157000 ns: read 01fa: ff
+uguale
+[ROM] 158000 ns: read 1ea4: 4c
+[ROM] 158500 ns: read 1ea5: 9b
+[ROM] 159000 ns: read 1ea6: fe
+[ROM] 159500 ns: read 1e9b: a0
+[ROM] 160000 ns: read 1e9c: 00
+[ROM] 160500 ns: read 1e9d: b1
+[ROM] 161000 ns: read 1e9e: 00
+[ROM] 161500 ns: read 0000: a9
+[ROM] 162000 ns: read 0001: 80
+[ROM] 162500 ns: read 1f0b: 4b
+[ROM] 163000 ns: read 1e9f: f0
+[ROM] 163500 ns: read 1ea0: 06
+[ROM] 164000 ns: read 1ea1: 20
+[ROM] 164500 ns: read 1ea2: a8
+[ROM] 165000 ns: read 1ea3: fe
+[ROM] 165500 ns: read 01fa: ff
+[RAM] 166000 ns: wrote: 01fa with fe
+[ROM] 166000 ns: read 01f9: ff
+[RAM] 166500 ns: wrote: 01f9 with a3
+[ROM] 166500 ns: read 1ea3: fe
+[ROM] 167000 ns: read 1ea8: a2
+[ROM] 167500 ns: read 1ea9: 00
+[ROM] 168000 ns: read 1eaa: a1
+[ROM] 168500 ns: read 1eab: 00
+[ROM] 169000 ns: read 1eac: e6
+[ROM] 169500 ns: read 0000: a9
+[ROM] 170000 ns: read 0001: 80
+[ROM] 170500 ns: read 1f0b: 4b
+[ROM] 171000 ns: read 1eac: e6
+[ROM] 171500 ns: read 1ead: 00
+[ROM] 172000 ns: read 0000: a9
+uguale
+uguale
+[ROM] 173000 ns: read 0000: a9
+[RAM] 173500 ns: wrote: 0000 with 0c
+[ROM] 173500 ns: read 1eae: d0
+[ROM] 174000 ns: read 1eaf: 02
+[ROM] 174500 ns: read 1eb0: e6
+[ROM] 175000 ns: read 1eb2: 48
+[ROM] 175500 ns: read 1eb3: ad
+[ROM] 176000 ns: read 01f8: ff
+[RAM] 176500 ns: wrote: 01f8 with 4b
+[ROM] 176500 ns: read 1eb3: ad
+[ROM] 177000 ns: read 1eb4: 01
+[ROM] 177500 ns: read 1eb5: df
+[ROM] 178000 ns: read 1f01: 4d
+[ROM] 178500 ns: read 1eb6: 29
+[ROM] 179000 ns: read 1eb7: 20
+[ROM] 179500 ns: read 1eb8: d0
+[ROM] 180000 ns: read 1eb9: f9
+[ROM] 180500 ns: read 1eba: 68
+[ROM] 181000 ns: read 1ebb: 8d
+[ROM] 181500 ns: read 01f8: ff
+[ROM] 182000 ns: read 1ebb: 8d
+[ROM] 182500 ns: read 1ebc: 00
+[ROM] 183000 ns: read 1ebd: df
+[ROM] 183500 ns: read 1f00: 4f
+[ROM] 184000 ns: read 1ebe: c9
+[ROM] 184500 ns: read 1ebf: 40
+[ROM] 185000 ns: read 1ec0: 90
+[ROM] 185500 ns: read 1ec1: 02
+[ROM] 186000 ns: read 1ec2: e9
+[ROM] 186500 ns: read 1ec3: 40
+[ROM] 187000 ns: read 1ec4: a2
+[ROM] 187500 ns: read 1ec5: 02
+[ROM] 188000 ns: read 1ec6: 81
+[ROM] 188500 ns: read 1ec7: 00
+[ROM] 189000 ns: read 1ec8: e6
+[ROM] 189500 ns: read 0002: 30
+[ROM] 190000 ns: read 0003: 05
+uguale
+[ROM] 190500 ns: read 0003: 05
+[ROM] 191000 ns: read 1ec8: e6
+[ROM] 191500 ns: read 1ec9: 02
+[ROM] 192000 ns: read 0002: 30
+uguale
+uguale
+[ROM] 193000 ns: read 0002: 30
+[RAM] 193500 ns: wrote: 0002 with 04
+[ROM] 193500 ns: read 1eca: d0
+[ROM] 194000 ns: read 1ecb: 02
+[ROM] 194500 ns: read 1ecc: e6
+[ROM] 195000 ns: read 1ece: 60
+[ROM] 195500 ns: read 01f8: ff
+[ROM] 196000 ns: read 01f9: ff
+[ROM] 196500 ns: read 01fa: ff
+uguale
+[ROM] 197500 ns: read 1ea4: 4c
+[ROM] 198000 ns: read 1ea5: 9b
+[ROM] 198500 ns: read 1ea6: fe
+[ROM] 199000 ns: read 1e9b: a0
+[ROM] 199500 ns: read 1e9c: 00
+[ROM] 200000 ns: read 1e9d: b1
+[ROM] 200500 ns: read 1e9e: 00
+[ROM] 201000 ns: read 0000: a9
+[ROM] 201500 ns: read 0001: 80
+[ROM] 202000 ns: read 1f0c: 45
+[ROM] 202500 ns: read 1e9f: f0
+[ROM] 203000 ns: read 1ea0: 06
+[ROM] 203500 ns: read 1ea1: 20
+[ROM] 204000 ns: read 1ea2: a8
+[ROM] 204500 ns: read 1ea3: fe
+[ROM] 205000 ns: read 01fa: ff
+[RAM] 205500 ns: wrote: 01fa with fe
+[ROM] 205500 ns: read 01f9: ff
+[RAM] 206000 ns: wrote: 01f9 with a3
+[ROM] 206000 ns: read 1ea3: fe
+[ROM] 206500 ns: read 1ea8: a2
+[ROM] 207000 ns: read 1ea9: 00
+[ROM] 207500 ns: read 1eaa: a1
+[ROM] 208000 ns: read 1eab: 00
+[ROM] 208500 ns: read 1eac: e6
+[ROM] 209000 ns: read 0000: a9
+[ROM] 209500 ns: read 0001: 80
+[ROM] 210000 ns: read 1f0c: 45
+[ROM] 210500 ns: read 1eac: e6
+[ROM] 211000 ns: read 1ead: 00
+[ROM] 211500 ns: read 0000: a9
+uguale
+uguale
+[ROM] 212500 ns: read 0000: a9
+[RAM] 213000 ns: wrote: 0000 with 0d
+[ROM] 213000 ns: read 1eae: d0
+[ROM] 213500 ns: read 1eaf: 02
+[ROM] 214000 ns: read 1eb0: e6
+[ROM] 214500 ns: read 1eb2: 48
+[ROM] 215000 ns: read 1eb3: ad
+[ROM] 215500 ns: read 01f8: ff
+[RAM] 216000 ns: wrote: 01f8 with 45
+[ROM] 216000 ns: read 1eb3: ad
+[ROM] 216500 ns: read 1eb4: 01
+[ROM] 217000 ns: read 1eb5: df
+[ROM] 217500 ns: read 1f01: 4d
+[ROM] 218000 ns: read 1eb6: 29
+[ROM] 218500 ns: read 1eb7: 20
+[ROM] 219000 ns: read 1eb8: d0
+[ROM] 219500 ns: read 1eb9: f9
+[ROM] 220000 ns: read 1eba: 68
+[ROM] 220500 ns: read 1ebb: 8d
+[ROM] 221000 ns: read 01f8: ff
+[ROM] 221500 ns: read 1ebb: 8d
+[ROM] 222000 ns: read 1ebc: 00
+[ROM] 222500 ns: read 1ebd: df
+[ROM] 223000 ns: read 1f00: 4f
+[ROM] 223500 ns: read 1ebe: c9
+[ROM] 224000 ns: read 1ebf: 40
+[ROM] 224500 ns: read 1ec0: 90
+[ROM] 225000 ns: read 1ec1: 02
+[ROM] 225500 ns: read 1ec2: e9
+[ROM] 226000 ns: read 1ec3: 40
+[ROM] 226500 ns: read 1ec4: a2
+[ROM] 227000 ns: read 1ec5: 02
+[ROM] 227500 ns: read 1ec6: 81
+[ROM] 228000 ns: read 1ec7: 00
+[ROM] 228500 ns: read 1ec8: e6
+[ROM] 229000 ns: read 0002: 30
+[ROM] 229500 ns: read 0003: 05
+[ROM] 230000 ns: read 0004: a9
+[ROM] 230500 ns: read 1ec8: e6
+[ROM] 231000 ns: read 1ec9: 02
+[ROM] 231500 ns: read 0002: 30
+uguale
+uguale
+[ROM] 232500 ns: read 0002: 30
+[RAM] 233000 ns: wrote: 0002 with 05
+[ROM] 233000 ns: read 1eca: d0
+[ROM] 233500 ns: read 1ecb: 02
+[ROM] 234000 ns: read 1ecc: e6
+[ROM] 234500 ns: read 1ece: 60
+[ROM] 235000 ns: read 01f8: ff
+[ROM] 235500 ns: read 01f9: ff
+[ROM] 236000 ns: read 01fa: ff
+uguale
+[ROM] 237000 ns: read 1ea4: 4c
+[ROM] 237500 ns: read 1ea5: 9b
+[ROM] 238000 ns: read 1ea6: fe
+[ROM] 238500 ns: read 1e9b: a0
+[ROM] 239000 ns: read 1e9c: 00
+[ROM] 239500 ns: read 1e9d: b1
+[ROM] 240000 ns: read 1e9e: 00
+[ROM] 240500 ns: read 0000: a9
+[ROM] 241000 ns: read 0001: 80
+[ROM] 241500 ns: read 1f0d: 20
+[ROM] 242000 ns: read 1e9f: f0
+[ROM] 242500 ns: read 1ea0: 06
+[ROM] 243000 ns: read 1ea1: 20
+[ROM] 243500 ns: read 1ea2: a8
+[ROM] 244000 ns: read 1ea3: fe
+[ROM] 244500 ns: read 01fa: ff
+[RAM] 245000 ns: wrote: 01fa with fe
+[ROM] 245000 ns: read 01f9: ff
+[RAM] 245500 ns: wrote: 01f9 with a3
+[ROM] 245500 ns: read 1ea3: fe
+[ROM] 246000 ns: read 1ea8: a2
+[ROM] 246500 ns: read 1ea9: 00
+[ROM] 247000 ns: read 1eaa: a1
+[ROM] 247500 ns: read 1eab: 00
+[ROM] 248000 ns: read 1eac: e6
+[ROM] 248500 ns: read 0000: a9
+[ROM] 249000 ns: read 0001: 80
+[ROM] 249500 ns: read 1f0d: 20
+[ROM] 250000 ns: read 1eac: e6
+[ROM] 250500 ns: read 1ead: 00
+[ROM] 251000 ns: read 0000: a9
+uguale
+uguale
+[ROM] 252000 ns: read 0000: a9
+[RAM] 252500 ns: wrote: 0000 with 0e
+[ROM] 252500 ns: read 1eae: d0
+[ROM] 253000 ns: read 1eaf: 02
+[ROM] 253500 ns: read 1eb0: e6
+[ROM] 254000 ns: read 1eb2: 48
+[ROM] 254500 ns: read 1eb3: ad
+[ROM] 255000 ns: read 01f8: ff
+[RAM] 255500 ns: wrote: 01f8 with 20
+[ROM] 255500 ns: read 1eb3: ad
+[ROM] 256000 ns: read 1eb4: 01
+[ROM] 256500 ns: read 1eb5: df
+[ROM] 257000 ns: read 1f01: 4d
+[ROM] 257500 ns: read 1eb6: 29
+[ROM] 258000 ns: read 1eb7: 20
+[ROM] 258500 ns: read 1eb8: d0
+[ROM] 259000 ns: read 1eb9: f9
+[ROM] 259500 ns: read 1eba: 68
+[ROM] 260000 ns: read 1ebb: 8d
+[ROM] 260500 ns: read 01f8: ff
+[ROM] 261000 ns: read 1ebb: 8d
+[ROM] 261500 ns: read 1ebc: 00
+[ROM] 262000 ns: read 1ebd: df
+[ROM] 262500 ns: read 1f00: 4f
+[ROM] 263000 ns: read 1ebe: c9
+[ROM] 263500 ns: read 1ebf: 40
+[ROM] 264000 ns: read 1ec0: 90
+[ROM] 264500 ns: read 1ec1: 02
+[ROM] 265000 ns: read 1ec2: e9
+[ROM] 265500 ns: read 1ec4: a2
+[ROM] 266000 ns: read 1ec5: 02
+[ROM] 266500 ns: read 1ec6: 81
+[ROM] 267000 ns: read 1ec7: 00
+[ROM] 267500 ns: read 1ec8: e6
+[ROM] 268000 ns: read 0002: 30
+[ROM] 268500 ns: read 0003: 05
+[ROM] 269000 ns: read 0005: 0d
+[ROM] 269500 ns: read 1ec8: e6
+[ROM] 270000 ns: read 1ec9: 02
+[ROM] 270500 ns: read 0002: 30
+uguale
+uguale
+[ROM] 271500 ns: read 0002: 30
+[RAM] 272000 ns: wrote: 0002 with 06
+[ROM] 272000 ns: read 1eca: d0
+[ROM] 272500 ns: read 1ecb: 02
+[ROM] 273000 ns: read 1ecc: e6
+[ROM] 273500 ns: read 1ece: 60
+[ROM] 274000 ns: read 01f8: ff
+[ROM] 274500 ns: read 01f9: ff
+[ROM] 275000 ns: read 01fa: ff
+uguale
+[ROM] 276000 ns: read 1ea4: 4c
+[ROM] 276500 ns: read 1ea5: 9b
+[ROM] 277000 ns: read 1ea6: fe
+[ROM] 277500 ns: read 1e9b: a0
+[ROM] 278000 ns: read 1e9c: 00
+[ROM] 278500 ns: read 1e9d: b1
+[ROM] 279000 ns: read 1e9e: 00
+[ROM] 279500 ns: read 0000: a9
+[ROM] 280000 ns: read 0001: 80
+[ROM] 280500 ns: read 1f0e: 53
+[ROM] 281000 ns: read 1e9f: f0
+[ROM] 281500 ns: read 1ea0: 06
+[ROM] 282000 ns: read 1ea1: 20
+[ROM] 282500 ns: read 1ea2: a8
+[ROM] 283000 ns: read 1ea3: fe
+[ROM] 283500 ns: read 01fa: ff
+[RAM] 284000 ns: wrote: 01fa with fe
+[ROM] 284000 ns: read 01f9: ff
+[RAM] 284500 ns: wrote: 01f9 with a3
+[ROM] 284500 ns: read 1ea3: fe
+[ROM] 285000 ns: read 1ea8: a2
+[ROM] 285500 ns: read 1ea9: 00
+[ROM] 286000 ns: read 1eaa: a1
+[ROM] 286500 ns: read 1eab: 00
+[ROM] 287000 ns: read 1eac: e6
+[ROM] 287500 ns: read 0000: a9
+[ROM] 288000 ns: read 0001: 80
+[ROM] 288500 ns: read 1f0e: 53
+[ROM] 289000 ns: read 1eac: e6
+[ROM] 289500 ns: read 1ead: 00
+[ROM] 290000 ns: read 0000: a9
+uguale
+uguale
+[ROM] 291000 ns: read 0000: a9
+[RAM] 291500 ns: wrote: 0000 with 0f
+[ROM] 291500 ns: read 1eae: d0
+[ROM] 292000 ns: read 1eaf: 02
+[ROM] 292500 ns: read 1eb0: e6
+[ROM] 293000 ns: read 1eb2: 48
+[ROM] 293500 ns: read 1eb3: ad
+[ROM] 294000 ns: read 01f8: ff
+[RAM] 294500 ns: wrote: 01f8 with 53
+[ROM] 294500 ns: read 1eb3: ad
+[ROM] 295000 ns: read 1eb4: 01
+[ROM] 295500 ns: read 1eb5: df
+[ROM] 296000 ns: read 1f01: 4d
+[ROM] 296500 ns: read 1eb6: 29
+[ROM] 297000 ns: read 1eb7: 20
+[ROM] 297500 ns: read 1eb8: d0
+[ROM] 298000 ns: read 1eb9: f9
+[ROM] 298500 ns: read 1eba: 68
+[ROM] 299000 ns: read 1ebb: 8d
+[ROM] 299500 ns: read 01f8: ff
+[ROM] 300000 ns: read 1ebb: 8d
+[ROM] 300500 ns: read 1ebc: 00
+[ROM] 301000 ns: read 1ebd: df
+[ROM] 301500 ns: read 1f00: 4f
+[ROM] 302000 ns: read 1ebe: c9
+[ROM] 302500 ns: read 1ebf: 40
+[ROM] 303000 ns: read 1ec0: 90
+[ROM] 303500 ns: read 1ec1: 02
+[ROM] 304000 ns: read 1ec2: e9
+[ROM] 304500 ns: read 1ec3: 40
+[ROM] 305000 ns: read 1ec4: a2
+[ROM] 305500 ns: read 1ec5: 02
+[ROM] 306000 ns: read 1ec6: 81
+[ROM] 306500 ns: read 1ec7: 00
+[ROM] 307000 ns: read 1ec8: e6
+[ROM] 307500 ns: read 0002: 30
+[ROM] 308000 ns: read 0003: 05
+[ROM] 308500 ns: read 0006: 4c
+[ROM] 309000 ns: read 1ec8: e6
+[ROM] 309500 ns: read 1ec9: 02
+[ROM] 310000 ns: read 0002: 30
+uguale
+uguale
+[ROM] 311000 ns: read 0002: 30
+[RAM] 311500 ns: wrote: 0002 with 07
+[ROM] 311500 ns: read 1eca: d0
+[ROM] 312000 ns: read 1ecb: 02
+[ROM] 312500 ns: read 1ecc: e6
+[ROM] 313000 ns: read 1ece: 60
+[ROM] 313500 ns: read 01f8: ff
+[ROM] 314000 ns: read 01f9: ff
+[ROM] 314500 ns: read 01fa: ff
+uguale
+[ROM] 315500 ns: read 1ea4: 4c
+[ROM] 316000 ns: read 1ea5: 9b
+[ROM] 316500 ns: read 1ea6: fe
+[ROM] 317000 ns: read 1e9b: a0
+[ROM] 317500 ns: read 1e9c: 00
+[ROM] 318000 ns: read 1e9d: b1
+[ROM] 318500 ns: read 1e9e: 00
+[ROM] 319000 ns: read 0000: a9
+[ROM] 319500 ns: read 0001: 80
+[ROM] 320000 ns: read 1f0f: 4f
+[ROM] 320500 ns: read 1e9f: f0
+[ROM] 321000 ns: read 1ea0: 06
+[ROM] 321500 ns: read 1ea1: 20
+[ROM] 322000 ns: read 1ea2: a8
+[ROM] 322500 ns: read 1ea3: fe
+[ROM] 323000 ns: read 01fa: ff
+[RAM] 323500 ns: wrote: 01fa with fe
+[ROM] 323500 ns: read 01f9: ff
+[RAM] 324000 ns: wrote: 01f9 with a3
+[ROM] 324000 ns: read 1ea3: fe
+[ROM] 324500 ns: read 1ea8: a2
+[ROM] 325000 ns: read 1ea9: 00
+[ROM] 325500 ns: read 1eaa: a1
+[ROM] 326000 ns: read 1eab: 00
+[ROM] 326500 ns: read 1eac: e6
+[ROM] 327000 ns: read 0000: a9
+[ROM] 327500 ns: read 0001: 80
+[ROM] 328000 ns: read 1f0f: 4f
+[ROM] 328500 ns: read 1eac: e6
+[ROM] 329000 ns: read 1ead: 00
+[ROM] 329500 ns: read 0000: a9
+uguale
+uguale
+[ROM] 330500 ns: read 0000: a9
+[RAM] 331000 ns: wrote: 0000 with 10
+[ROM] 331000 ns: read 1eae: d0
+[ROM] 331500 ns: read 1eaf: 02
+[ROM] 332000 ns: read 1eb0: e6
+[ROM] 332500 ns: read 1eb2: 48
+[ROM] 333000 ns: read 1eb3: ad
+[ROM] 333500 ns: read 01f8: ff
+[RAM] 334000 ns: wrote: 01f8 with 4f
+[ROM] 334000 ns: read 1eb3: ad
+[ROM] 334500 ns: read 1eb4: 01
+[ROM] 335000 ns: read 1eb5: df
+[ROM] 335500 ns: read 1f01: 4d
+[ROM] 336000 ns: read 1eb6: 29
+[ROM] 336500 ns: read 1eb7: 20
+[ROM] 337000 ns: read 1eb8: d0
+[ROM] 337500 ns: read 1eb9: f9
+[ROM] 338000 ns: read 1eba: 68
+[ROM] 338500 ns: read 1ebb: 8d
+[ROM] 339000 ns: read 01f8: ff
+[ROM] 339500 ns: read 1ebb: 8d
+[ROM] 340000 ns: read 1ebc: 00
+[ROM] 340500 ns: read 1ebd: df
+[ROM] 341000 ns: read 1f00: 4f
+[ROM] 341500 ns: read 1ebe: c9
+[ROM] 342000 ns: read 1ebf: 40
+[ROM] 342500 ns: read 1ec0: 90
+[ROM] 343000 ns: read 1ec1: 02
+[ROM] 343500 ns: read 1ec2: e9
+[ROM] 344000 ns: read 1ec3: 40
+[ROM] 344500 ns: read 1ec4: a2
+[ROM] 345000 ns: read 1ec5: 02
+[ROM] 345500 ns: read 1ec6: 81
+[ROM] 346000 ns: read 1ec7: 00
+[ROM] 346500 ns: read 1ec8: e6
+[ROM] 347000 ns: read 0002: 30
+[ROM] 347500 ns: read 0003: 05
+[ROM] 348000 ns: read 0007: 0f
+[ROM] 348500 ns: read 1ec8: e6
+[ROM] 349000 ns: read 1ec9: 02
+[ROM] 349500 ns: read 0002: 30
+uguale
+uguale
+[ROM] 350500 ns: read 0002: 30
+[RAM] 351000 ns: wrote: 0002 with 08
+[ROM] 351000 ns: read 1eca: d0
+[ROM] 351500 ns: read 1ecb: 02
+[ROM] 352000 ns: read 1ecc: e6
+[ROM] 352500 ns: read 1ece: 60
+[ROM] 353000 ns: read 01f8: ff
+[ROM] 353500 ns: read 01f9: ff
+[ROM] 354000 ns: read 01fa: ff
+uguale
+[ROM] 355000 ns: read 1ea4: 4c
+[ROM] 355500 ns: read 1ea5: 9b
+[ROM] 356000 ns: read 1ea6: fe
+[ROM] 356500 ns: read 1e9b: a0
+[ROM] 357000 ns: read 1e9c: 00
+[ROM] 357500 ns: read 1e9d: b1
+[ROM] 358000 ns: read 1e9e: 00
+[ROM] 358500 ns: read 0000: a9
+[ROM] 359000 ns: read 0001: 80
+[ROM] 359500 ns: read 1f10: 4d
+[ROM] 360000 ns: read 1e9f: f0
+[ROM] 360500 ns: read 1ea0: 06
+[ROM] 361000 ns: read 1ea1: 20
+[ROM] 361500 ns: read 1ea2: a8
+[ROM] 362000 ns: read 1ea3: fe
+[ROM] 362500 ns: read 01fa: ff
+[RAM] 363000 ns: wrote: 01fa with fe
+[ROM] 363000 ns: read 01f9: ff
+[RAM] 363500 ns: wrote: 01f9 with a3
+[ROM] 363500 ns: read 1ea3: fe
+[ROM] 364000 ns: read 1ea8: a2
+[ROM] 364500 ns: read 1ea9: 00
+[ROM] 365000 ns: read 1eaa: a1
+[ROM] 365500 ns: read 1eab: 00
+[ROM] 366000 ns: read 1eac: e6
+[ROM] 366500 ns: read 0000: a9
+[ROM] 367000 ns: read 0001: 80
+[ROM] 367500 ns: read 1f10: 4d
+[ROM] 368000 ns: read 1eac: e6
+[ROM] 368500 ns: read 1ead: 00
+[ROM] 369000 ns: read 0000: a9
+uguale
+uguale
+[ROM] 370000 ns: read 0000: a9
+[RAM] 370500 ns: wrote: 0000 with 11
+[ROM] 370500 ns: read 1eae: d0
+[ROM] 371000 ns: read 1eaf: 02
+[ROM] 371500 ns: read 1eb0: e6
+[ROM] 372000 ns: read 1eb2: 48
+[ROM] 372500 ns: read 1eb3: ad
+[ROM] 373000 ns: read 01f8: ff
+[RAM] 373500 ns: wrote: 01f8 with 4d
+[ROM] 373500 ns: read 1eb3: ad
+[ROM] 374000 ns: read 1eb4: 01
+[ROM] 374500 ns: read 1eb5: df
+[ROM] 375000 ns: read 1f01: 4d
+[ROM] 375500 ns: read 1eb6: 29
+[ROM] 376000 ns: read 1eb7: 20
+[ROM] 376500 ns: read 1eb8: d0
+[ROM] 377000 ns: read 1eb9: f9
+[ROM] 377500 ns: read 1eba: 68
+[ROM] 378000 ns: read 1ebb: 8d
+[ROM] 378500 ns: read 01f8: ff
+[ROM] 379000 ns: read 1ebb: 8d
+[ROM] 379500 ns: read 1ebc: 00
+[ROM] 380000 ns: read 1ebd: df
+[ROM] 380500 ns: read 1f00: 4f
+[ROM] 381000 ns: read 1ebe: c9
+[ROM] 381500 ns: read 1ebf: 40
+[ROM] 382000 ns: read 1ec0: 90
+[ROM] 382500 ns: read 1ec1: 02
+[ROM] 383000 ns: read 1ec2: e9
+[ROM] 383500 ns: read 1ec3: 40
+[ROM] 384000 ns: read 1ec4: a2
+[ROM] 384500 ns: read 1ec5: 02
+[ROM] 385000 ns: read 1ec6: 81
+[ROM] 385500 ns: read 1ec7: 00
+[ROM] 386000 ns: read 1ec8: e6
+[ROM] 386500 ns: read 0002: 30
+[ROM] 387000 ns: read 0003: 05
+[ROM] 387500 ns: read 0008: e0
+[ROM] 388000 ns: read 1ec8: e6
+[ROM] 388500 ns: read 1ec9: 02
+[ROM] 389000 ns: read 0002: 30
+uguale
+uguale
+[ROM] 390000 ns: read 0002: 30
+[RAM] 390500 ns: wrote: 0002 with 09
+[ROM] 390500 ns: read 1eca: d0
+[ROM] 391000 ns: read 1ecb: 02
+[ROM] 391500 ns: read 1ecc: e6
+[ROM] 392000 ns: read 1ece: 60
+[ROM] 392500 ns: read 01f8: ff
+[ROM] 393000 ns: read 01f9: ff
+[ROM] 393500 ns: read 01fa: ff
+uguale
+[ROM] 394500 ns: read 1ea4: 4c
+[ROM] 395000 ns: read 1ea5: 9b
+[ROM] 395500 ns: read 1ea6: fe
+[ROM] 396000 ns: read 1e9b: a0
+[ROM] 396500 ns: read 1e9c: 00
+[ROM] 397000 ns: read 1e9d: b1
+[ROM] 397500 ns: read 1e9e: 00
+[ROM] 398000 ns: read 0000: a9
+[ROM] 398500 ns: read 0001: 80
+[ROM] 399000 ns: read 1f11: 45
+[ROM] 399500 ns: read 1e9f: f0
+[ROM] 400000 ns: read 1ea0: 06
+[ROM] 400500 ns: read 1ea1: 20
+[ROM] 401000 ns: read 1ea2: a8
+[ROM] 401500 ns: read 1ea3: fe
+[ROM] 402000 ns: read 01fa: ff
+[RAM] 402500 ns: wrote: 01fa with fe
+[ROM] 402500 ns: read 01f9: ff
+[RAM] 403000 ns: wrote: 01f9 with a3
+[ROM] 403000 ns: read 1ea3: fe
+[ROM] 403500 ns: read 1ea8: a2
+[ROM] 404000 ns: read 1ea9: 00
+[ROM] 404500 ns: read 1eaa: a1
+[ROM] 405000 ns: read 1eab: 00
+[ROM] 405500 ns: read 1eac: e6
+[ROM] 406000 ns: read 0000: a9
+[ROM] 406500 ns: read 0001: 80
+[ROM] 407000 ns: read 1f11: 45
+[ROM] 407500 ns: read 1eac: e6
+[ROM] 408000 ns: read 1ead: 00
+[ROM] 408500 ns: read 0000: a9
+uguale
+uguale
+[ROM] 409500 ns: read 0000: a9
+[RAM] 410000 ns: wrote: 0000 with 12
+[ROM] 410000 ns: read 1eae: d0
+[ROM] 410500 ns: read 1eaf: 02
+[ROM] 411000 ns: read 1eb0: e6
+[ROM] 411500 ns: read 1eb2: 48
+[ROM] 412000 ns: read 1eb3: ad
+[ROM] 412500 ns: read 01f8: ff
+[RAM] 413000 ns: wrote: 01f8 with 45
+[ROM] 413000 ns: read 1eb3: ad
+[ROM] 413500 ns: read 1eb4: 01
+[ROM] 414000 ns: read 1eb5: df
+[ROM] 414500 ns: read 1f01: 4d
+[ROM] 415000 ns: read 1eb6: 29
+[ROM] 415500 ns: read 1eb7: 20
+[ROM] 416000 ns: read 1eb8: d0
+[ROM] 416500 ns: read 1eb9: f9
+[ROM] 417000 ns: read 1eba: 68
+[ROM] 417500 ns: read 1ebb: 8d
+[ROM] 418000 ns: read 01f8: ff
+[ROM] 418500 ns: read 1ebb: 8d
+[ROM] 419000 ns: read 1ebc: 00
+[ROM] 419500 ns: read 1ebd: df
+[ROM] 420000 ns: read 1f00: 4f
+[ROM] 420500 ns: read 1ebe: c9
+[ROM] 421000 ns: read 1ebf: 40
+[ROM] 421500 ns: read 1ec0: 90
+[ROM] 422000 ns: read 1ec1: 02
+[ROM] 422500 ns: read 1ec2: e9
+[ROM] 423000 ns: read 1ec3: 40
+[ROM] 423500 ns: read 1ec4: a2
+[ROM] 424000 ns: read 1ec5: 02
+[ROM] 424500 ns: read 1ec6: 81
+[ROM] 425000 ns: read 1ec7: 00
+[ROM] 425500 ns: read 1ec8: e6
+[ROM] 426000 ns: read 0002: 30
+[ROM] 426500 ns: read 0003: 05
+[ROM] 427000 ns: read 0009: a9
+[ROM] 427500 ns: read 1ec8: e6
+[ROM] 428000 ns: read 1ec9: 02
+[ROM] 428500 ns: read 0002: 30
+uguale
+uguale
+[ROM] 429500 ns: read 0002: 30
+[RAM] 430000 ns: wrote: 0002 with 0a
+[ROM] 430000 ns: read 1eca: d0
+[ROM] 430500 ns: read 1ecb: 02
+[ROM] 431000 ns: read 1ecc: e6
+[ROM] 431500 ns: read 1ece: 60
+[ROM] 432000 ns: read 01f8: ff
+[ROM] 432500 ns: read 01f9: ff
+[ROM] 433000 ns: read 01fa: ff
+uguale
+[ROM] 434000 ns: read 1ea4: 4c
+[ROM] 434500 ns: read 1ea5: 9b
+[ROM] 435000 ns: read 1ea6: fe
+[ROM] 435500 ns: read 1e9b: a0
+[ROM] 436000 ns: read 1e9c: 00
+[ROM] 436500 ns: read 1e9d: b1
+[ROM] 437000 ns: read 1e9e: 00
+[ROM] 437500 ns: read 0000: a9
+[ROM] 438000 ns: read 0001: 80
+[ROM] 438500 ns: read 1f12: 54
+[ROM] 439000 ns: read 1e9f: f0
+[ROM] 439500 ns: read 1ea0: 06
+[ROM] 440000 ns: read 1ea1: 20
+[ROM] 440500 ns: read 1ea2: a8
+[ROM] 441000 ns: read 1ea3: fe
+[ROM] 441500 ns: read 01fa: ff
+[RAM] 442000 ns: wrote: 01fa with fe
+[ROM] 442000 ns: read 01f9: ff
+[RAM] 442500 ns: wrote: 01f9 with a3
+[ROM] 442500 ns: read 1ea3: fe
+[ROM] 443000 ns: read 1ea8: a2
+[ROM] 443500 ns: read 1ea9: 00
+[ROM] 444000 ns: read 1eaa: a1
+[ROM] 444500 ns: read 1eab: 00
+[ROM] 445000 ns: read 1eac: e6
+[ROM] 445500 ns: read 0000: a9
+[ROM] 446000 ns: read 0001: 80
+[ROM] 446500 ns: read 1f12: 54
+[ROM] 447000 ns: read 1eac: e6
+[ROM] 447500 ns: read 1ead: 00
+[ROM] 448000 ns: read 0000: a9
+uguale
+uguale
+[ROM] 449000 ns: read 0000: a9
+[RAM] 449500 ns: wrote: 0000 with 13
+[ROM] 449500 ns: read 1eae: d0
+[ROM] 450000 ns: read 1eaf: 02

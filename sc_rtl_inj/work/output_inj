@@ -1,0 +1,117 @@
+WARNING: Default time step is used for VCD tracing.
+[ROM]   1500 ns: read 1ffc: 00
+initialized injected design
+[ROM]   2500 ns: read 0100: ff
+[ROM]   3000 ns: read 01ff: ff
+[ROM]   3500 ns: read 01fe: ff
+[ROM]   4000 ns: read 1ffc: 00
+[ROM]   4500 ns: read 1ffd: fe
+[ROM]   5000 ns: read 1e00: d8
+[ROM]   6000 ns: read 01fd: ff
+[RAM]   6500 ns: wrote: 01fd with fe
+[ROM]   6500 ns: read 01fc: ff
+[RAM]   7000 ns: wrote: 01fc with 00
+[ROM]   7000 ns: read 01fb: ff
+[RAM]   7500 ns: wrote: 01fb with 04
+[ROM]   7500 ns: read 1ffa: d7
+[ROM]   8000 ns: read 1ffb: fe
+[ROM]   8500 ns: read 1ed7: 48
+[ROM]   9000 ns: read 1ed8: e6
+[ROM]   9500 ns: read 01fa: ff
+[RAM]  10000 ns: wrote: 01fa with 00
+[ROM]  10000 ns: read 1ed8: e6
+[ROM]  10500 ns: read 1ed9: 06
+[ROM]  11000 ns: read 0006: 4c
+[ROM]  12000 ns: read 0006: 4c
+[RAM]  12500 ns: wrote: 0006 with 01
+[ROM]  12500 ns: read 1eda: a5
+[ROM]  13000 ns: read 1edb: 06
+[ROM]  13500 ns: read 0006: 4c
+[ROM]  14000 ns: read 1edc: 8d
+[ROM]  14500 ns: read 1edd: 00
+[ROM]  15000 ns: read 1ede: da
+[ROM]  15500 ns: read 1a00: ff
+[ROM]  16000 ns: read 1edf: 68
+[ROM]  16500 ns: read 1ee0: 40
+[ROM]  17000 ns: read 01fa: ff
+[ROM]  17500 ns: read 1ee0: 40
+[ROM]  18000 ns: read 01fa: ff
+[ROM]  18500 ns: read 01fb: ff
+[ROM]  19000 ns: read 01fc: ff
+[ROM]  19500 ns: read 01fd: ff
+[ROM]  20000 ns: read 1e00: d8
+[ROM]  20500 ns: read 1e01: a2
+[ROM]  21500 ns: read 1e02: ff
+[ROM]  22000 ns: read 1e03: 86
+[ROM]  22500 ns: read 1e04: 06
+[ROM]  23000 ns: read 0006: 4c
+[RAM]  23500 ns: wrote: 0006 with ff
+[ROM]  23500 ns: read 1e05: 9a
+[ROM]  24000 ns: read 1e06: a2
+[ROM]  25000 ns: read 1e07: 00
+[ROM]  25500 ns: read 1e08: 86
+[ROM]  26000 ns: read 1e09: 02
+[ROM]  26500 ns: read 0002: 30
+[RAM]  27000 ns: wrote: 0002 with 00
+[ROM]  27000 ns: read 1e0a: a0
+[ROM]  27500 ns: read 1e0b: c0
+[ROM]  28000 ns: read 1e0c: 84
+[ROM]  28500 ns: read 1e0d: 03
+[ROM]  29000 ns: read 0003: 05
+[RAM]  29500 ns: wrote: 0003 with c0
+[ROM]  29500 ns: read 1e0e: 00
+[ROM]  30000 ns: read 1e0f: 00
+[ROM]  30500 ns: read 01ff: ff
+[RAM]  31000 ns: wrote: 01ff with fe
+[ROM]  31000 ns: read 01fe: ff
+[RAM]  31500 ns: wrote: 01fe with 10
+[ROM]  31500 ns: read 01fd: ff
+[RAM]  32000 ns: wrote: 01fd with 94
+[ROM]  32000 ns: read 1ffe: cf
+[ROM]  32500 ns: read 1fff: fe
+[ROM]  33000 ns: read 1ecf: a2
+[ROM]  33500 ns: read 1ed0: 08
+[ROM]  34000 ns: read 1ed1: a0
+[ROM]  34500 ns: read 1ed2: ff
+[ROM]  35000 ns: read 1ed3: 20
+[ROM]  35500 ns: read 1ed4: 97
+[ROM]  36000 ns: read 1ed5: fe
+[ROM]  36500 ns: read 01fc: ff
+[RAM]  37000 ns: wrote: 01fc with fe
+[ROM]  37000 ns: read 01fb: ff
+[RAM]  37500 ns: wrote: 01fb with d5
+[ROM]  37500 ns: read 1ed5: fe
+[ROM]  38000 ns: read 1e97: 86
+[ROM]  38500 ns: read 1e98: 00
+[ROM]  39000 ns: read 0000: a9
+[RAM]  39500 ns: wrote: 0000 with 08
+[ROM]  39500 ns: read 1e99: 84
+[ROM]  40000 ns: read 1e9a: 01
+[ROM]  40500 ns: read 0001: 80
+[RAM]  41000 ns: wrote: 0001 with ff
+[ROM]  41000 ns: read 1e9b: a0
+[ROM]  41500 ns: read 1e9c: 00
+[ROM]  42000 ns: read 1e9d: b1
+[ROM]  42500 ns: read 1e9e: 00
+[ROM]  43000 ns: read 0000: a9
+[ROM]  43500 ns: read 0001: 80
+[ROM]  44000 ns: read 1f08: 42
+[ROM]  44500 ns: read 1e9f: f0
+[ROM]  45000 ns: read 1ea0: 06
+[ROM]  45500 ns: read 1ea1: 20
+[ROM]  46000 ns: read 1ea2: a8
+[ROM]  46500 ns: read 1ea3: fe
+[ROM]  47000 ns: read 01fa: ff
+[RAM]  47500 ns: wrote: 01fa with fe
+[ROM]  47500 ns: read 01f9: ff
+[RAM]  48000 ns: wrote: 01f9 with a3
+[ROM]  48000 ns: read 1ea3: fe
+[ROM]  48500 ns: read 1ea8: a2
+[ROM]  49000 ns: read 1ea9: 00
+[ROM]  49500 ns: read 1eaa: a1
+[ROM]  50000 ns: read 1eab: 00
+[ROM]  50500 ns: read 1eac: e6
+[ROM]  51000 ns: read 0000: a9
+[ROM]  51500 ns: read 0001: 80
+
+Info: /OSCI/SystemC: Simulation stopped by user.

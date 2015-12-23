@@ -1,0 +1,433 @@
+load ROM
+ROM loaded
+WARNING: Default time step is used for VCD tracing.
+[ROM]   1500 ns: read 1ffc: ff
+[ROM]   2500 ns: read 0100: ff
+[ROM]   3000 ns: read 01ff: ff
+[ROM]   3500 ns: read 01fe: ff
+[ROM]   4000 ns: read 1ffc: ff
+[ROM]   4500 ns: read 1ffd: ff
+[ROM]   5000 ns: read 1fff: ff
+[ROM]   6000 ns: read 01fd: ff
+[RAM]   6500 ns: wrote: 01fd with ff
+[ROM]   6500 ns: read 01fc: ff
+[RAM]   7000 ns: wrote: 01fc with ff
+[ROM]   7000 ns: read 01fb: ff
+[RAM]   7500 ns: wrote: 01fb with 04
+[ROM]   7500 ns: read 1ffa: 0e
+[ROM]   8000 ns: read 1ffb: ff
+[ROM]   8500 ns: read 1f0e: b0
+[ROM]   9000 ns: read 1f0f: 02
+[ROM]   9500 ns: read 1f10: c6
+[ROM]  10000 ns: read 1f11: 03
+[ROM]  10500 ns: read 0003: ff
+[ROM]  11500 ns: read 0003: ff
+[RAM]  12000 ns: wrote: 0003 with ff
+[ROM]  12000 ns: read 1f12: 60
+[ROM]  12500 ns: read 01fa: ff
+[ROM]  13000 ns: read 01fb: ff
+[ROM]  13500 ns: read 01fc: ff
+[ROM]  14500 ns: read 1f05: 0b
+[ROM]  15000 ns: read 1f06: 98
+[ROM]  19000 ns: read 1f07: 49
+[ROM]  20000 ns: read 1f08: ff
+[ROM]  20500 ns: read 1f09: 38
+[ROM]  21000 ns: read 1f0a: 65
+[ROM]  22000 ns: read 1f0b: 02
+[ROM]  22500 ns: read 0002: ff
+[ROM]  23000 ns: read 1f0c: 85
+[ROM]  23500 ns: read 1f0d: 02
+[ROM]  24000 ns: read 0002: ff
+[RAM]  24500 ns: wrote: 0002 with fc
+[ROM]  24500 ns: read 1f0e: b0
+[ROM]  25000 ns: read 1f0f: 02
+[ROM]  25500 ns: read 1f10: c6
+[ROM]  26000 ns: read 1f12: 60
+[ROM]  26500 ns: read 01fc: ff
+[ROM]  27000 ns: read 01fd: ff
+[ROM]  27500 ns: read 01fe: ff
+[ROM]  28500 ns: read 0100: ff
+[ROM]  29000 ns: read 0101: ff
+[ROM]  29500 ns: read 01fe: ff
+[RAM]  30000 ns: wrote: 01fe with 01
+[ROM]  30000 ns: read 01fd: ff
+[RAM]  30500 ns: wrote: 01fd with 02
+[ROM]  30500 ns: read 01fc: ff
+[RAM]  31000 ns: wrote: 01fc with 97
+[ROM]  31000 ns: read 1ffe: ff
+[ROM]  31500 ns: read 1fff: ff
+[ROM]  32500 ns: read 0000: ff
+[ROM]  33500 ns: read 0001: ff
+[ROM]  34000 ns: read 0002: ff
+[ROM]  34500 ns: read 0003: ff
+[ROM]  38500 ns: read 0004: ff
+[ROM]  39000 ns: read 0000: ff
+[ROM]  39500 ns: read 0005: ff
+[ROM]  40000 ns: read 0006: ff
+[ROM]  40500 ns: read 0007: ff
+[ROM]  41000 ns: read 01fb: ff
+[RAM]  41500 ns: wrote: 01fb with 00
+[ROM]  41500 ns: read 01fa: ff
+[RAM]  42000 ns: wrote: 01fa with 08
+[ROM]  42000 ns: read 01f9: ff
+[RAM]  42500 ns: wrote: 01f9 with 97
+[ROM]  42500 ns: read 1ffe: ff
+[ROM]  43000 ns: read 1fff: ff
+[ROM]  44000 ns: read 0000: ff
+[ROM]  45000 ns: read 0001: ff
+[ROM]  45500 ns: read 0002: ff
+[ROM]  46000 ns: read 0003: ff
+[ROM]  50000 ns: read 0004: ff
+[ROM]  50500 ns: read 0000: ff
+[ROM]  51000 ns: read 0005: ff
+[ROM]  51500 ns: read 0006: ff
+[ROM]  52000 ns: read 0007: ff
+[ROM]  52500 ns: read 01f8: ff
+[RAM]  53000 ns: wrote: 01f8 with 00
+[ROM]  53000 ns: read 01f7: ff
+[RAM]  53500 ns: wrote: 01f7 with 08
+[ROM]  53500 ns: read 01f6: ff
+[RAM]  54000 ns: wrote: 01f6 with 97
+[ROM]  54000 ns: read 1ffe: ff
+[ROM]  54500 ns: read 1fff: ff
+[ROM]  55500 ns: read 0000: ff
+[ROM]  56500 ns: read 0001: ff
+[ROM]  57000 ns: read 0002: ff
+[ROM]  57500 ns: read 0003: ff
+[ROM]  61500 ns: read 0004: ff
+[ROM]  62000 ns: read 0000: ff
+[ROM]  62500 ns: read 0005: ff
+[ROM]  63000 ns: read 0006: ff
+[ROM]  63500 ns: read 0007: ff
+[ROM]  64000 ns: read 01f5: ff
+[RAM]  64500 ns: wrote: 01f5 with 00
+[ROM]  64500 ns: read 01f4: ff
+[RAM]  65000 ns: wrote: 01f4 with 08
+[ROM]  65000 ns: read 01f3: ff
+[RAM]  65500 ns: wrote: 01f3 with 97
+[ROM]  65500 ns: read 1ffe: ff
+[ROM]  66000 ns: read 1fff: ff
+[ROM]  67000 ns: read 0000: ff
+[ROM]  68000 ns: read 0001: ff
+[ROM]  68500 ns: read 0002: ff
+[ROM]  69000 ns: read 0003: ff
+[ROM]  73000 ns: read 0004: ff
+[ROM]  73500 ns: read 0000: ff
+[ROM]  74000 ns: read 0005: ff
+[ROM]  74500 ns: read 0006: ff
+[ROM]  75000 ns: read 0007: ff
+[ROM]  75500 ns: read 01f2: ff
+[RAM]  76000 ns: wrote: 01f2 with 00
+[ROM]  76000 ns: read 01f1: ff
+[RAM]  76500 ns: wrote: 01f1 with 08
+[ROM]  76500 ns: read 01f0: ff
+[RAM]  77000 ns: wrote: 01f0 with 97
+[ROM]  77000 ns: read 1ffe: ff
+[ROM]  77500 ns: read 1fff: ff
+[ROM]  78500 ns: read 0000: ff
+[ROM]  79500 ns: read 0001: ff
+[ROM]  80000 ns: read 0002: ff
+[ROM]  80500 ns: read 0003: ff
+[ROM]  84500 ns: read 0004: ff
+[ROM]  85000 ns: read 0000: ff
+[ROM]  85500 ns: read 0005: ff
+[ROM]  86000 ns: read 0006: ff
+[ROM]  86500 ns: read 0007: ff
+[ROM]  87000 ns: read 01ef: ff
+[RAM]  87500 ns: wrote: 01ef with 00
+[ROM]  87500 ns: read 01ee: ff
+[RAM]  88000 ns: wrote: 01ee with 08
+[ROM]  88000 ns: read 01ed: ff
+[RAM]  88500 ns: wrote: 01ed with 97
+[ROM]  88500 ns: read 1ffe: ff
+[ROM]  89000 ns: read 1fff: ff
+[ROM]  90000 ns: read 0000: ff
+[ROM]  91000 ns: read 0001: ff
+[ROM]  91500 ns: read 0002: ff
+[ROM]  92000 ns: read 0003: ff
+[ROM]  96000 ns: read 0004: ff
+[ROM]  96500 ns: read 0000: ff
+[ROM]  97000 ns: read 0005: ff
+[ROM]  97500 ns: read 0006: ff
+[ROM]  98000 ns: read 0007: ff
+[ROM]  98500 ns: read 01ec: ff
+[RAM]  99000 ns: wrote: 01ec with 00
+[ROM]  99000 ns: read 01eb: ff
+[RAM]  99500 ns: wrote: 01eb with 08
+[ROM]  99500 ns: read 01ea: ff
+[RAM] 100000 ns: wrote: 01ea with 97
+[ROM] 100000 ns: read 1ffe: ff
+[ROM] 100500 ns: read 1fff: ff
+[ROM] 101500 ns: read 0000: ff
+[ROM] 102500 ns: read 0001: ff
+[ROM] 103000 ns: read 0002: ff
+[ROM] 103500 ns: read 0003: ff
+[ROM] 107500 ns: read 0004: ff
+[ROM] 108000 ns: read 0000: ff
+[ROM] 108500 ns: read 0005: ff
+[ROM] 109000 ns: read 0006: ff
+[ROM] 109500 ns: read 0007: ff
+[ROM] 110000 ns: read 01e9: ff
+[RAM] 110500 ns: wrote: 01e9 with 00
+[ROM] 110500 ns: read 01e8: ff
+[RAM] 111000 ns: wrote: 01e8 with 08
+[ROM] 111000 ns: read 01e7: ff
+[RAM] 111500 ns: wrote: 01e7 with 97
+[ROM] 111500 ns: read 1ffe: ff
+[ROM] 112000 ns: read 1fff: ff
+[ROM] 113000 ns: read 0000: ff
+[ROM] 114000 ns: read 0001: ff
+[ROM] 114500 ns: read 0002: ff
+[ROM] 115000 ns: read 0003: ff
+[ROM] 119000 ns: read 0004: ff
+[ROM] 119500 ns: read 0000: ff
+[ROM] 120000 ns: read 0005: ff
+[ROM] 120500 ns: read 0006: ff
+[ROM] 121000 ns: read 0007: ff
+[ROM] 121500 ns: read 01e6: ff
+[RAM] 122000 ns: wrote: 01e6 with 00
+[ROM] 122000 ns: read 01e5: ff
+[RAM] 122500 ns: wrote: 01e5 with 08
+[ROM] 122500 ns: read 01e4: ff
+[RAM] 123000 ns: wrote: 01e4 with 97
+[ROM] 123000 ns: read 1ffe: ff
+[ROM] 123500 ns: read 1fff: ff
+[ROM] 124500 ns: read 0000: ff
+[ROM] 125500 ns: read 0001: ff
+[ROM] 126000 ns: read 0002: ff
+[ROM] 126500 ns: read 0003: ff
+[ROM] 130500 ns: read 0004: ff
+[ROM] 131000 ns: read 0000: ff
+[ROM] 131500 ns: read 0005: ff
+[ROM] 132000 ns: read 0006: ff
+[ROM] 132500 ns: read 0007: ff
+[ROM] 133000 ns: read 01e3: ff
+[RAM] 133500 ns: wrote: 01e3 with 00
+[ROM] 133500 ns: read 01e2: ff
+[RAM] 134000 ns: wrote: 01e2 with 08
+[ROM] 134000 ns: read 01e1: ff
+[RAM] 134500 ns: wrote: 01e1 with 97
+[ROM] 134500 ns: read 1ffe: ff
+[ROM] 135000 ns: read 1fff: ff
+[ROM] 136000 ns: read 0000: ff
+[ROM] 137000 ns: read 0001: ff
+[ROM] 137500 ns: read 0002: ff
+[ROM] 138000 ns: read 0003: ff
+[ROM] 142000 ns: read 0004: ff
+[ROM] 142500 ns: read 0000: ff
+[ROM] 143000 ns: read 0005: ff
+[ROM] 143500 ns: read 0006: ff
+[ROM] 144000 ns: read 0007: ff
+[ROM] 144500 ns: read 01e0: ff
+[RAM] 145000 ns: wrote: 01e0 with 00
+[ROM] 145000 ns: read 01df: ff
+[RAM] 145500 ns: wrote: 01df with 08
+[ROM] 145500 ns: read 01de: ff
+[RAM] 146000 ns: wrote: 01de with 97
+[ROM] 146000 ns: read 1ffe: ff
+[ROM] 146500 ns: read 1fff: ff
+[ROM] 147500 ns: read 0000: ff
+[ROM] 148500 ns: read 0001: ff
+[ROM] 149000 ns: read 0002: ff
+[ROM] 149500 ns: read 0003: ff
+[ROM] 153500 ns: read 0004: ff
+[ROM] 154000 ns: read 0000: ff
+[ROM] 154500 ns: read 0005: ff
+[ROM] 155000 ns: read 0006: ff
+[ROM] 155500 ns: read 0007: ff
+[ROM] 156000 ns: read 01dd: ff
+[RAM] 156500 ns: wrote: 01dd with 00
+[ROM] 156500 ns: read 01dc: ff
+[RAM] 157000 ns: wrote: 01dc with 08
+[ROM] 157000 ns: read 01db: ff
+[RAM] 157500 ns: wrote: 01db with 97
+[ROM] 157500 ns: read 1ffe: ff
+[ROM] 158000 ns: read 1fff: ff
+[ROM] 159000 ns: read 0000: ff
+[ROM] 160000 ns: read 0001: ff
+[ROM] 160500 ns: read 0002: ff
+[ROM] 161000 ns: read 0003: ff
+[ROM] 165000 ns: read 0004: ff
+[ROM] 165500 ns: read 0000: ff
+[ROM] 166000 ns: read 0005: ff
+[ROM] 166500 ns: read 0006: ff
+[ROM] 167000 ns: read 0007: ff
+[ROM] 167500 ns: read 01da: ff
+[RAM] 168000 ns: wrote: 01da with 00
+[ROM] 168000 ns: read 01d9: ff
+[RAM] 168500 ns: wrote: 01d9 with 08
+[ROM] 168500 ns: read 01d8: ff
+[RAM] 169000 ns: wrote: 01d8 with 97
+[ROM] 169000 ns: read 1ffe: ff
+[ROM] 169500 ns: read 1fff: ff
+[ROM] 170500 ns: read 0000: ff
+[ROM] 171500 ns: read 0001: ff
+[ROM] 172000 ns: read 0002: ff
+[ROM] 172500 ns: read 0003: ff
+[ROM] 176500 ns: read 0004: ff
+[ROM] 177000 ns: read 0000: ff
+[ROM] 177500 ns: read 0005: ff
+[ROM] 178000 ns: read 0006: ff
+[ROM] 178500 ns: read 0007: ff
+[ROM] 179000 ns: read 01d7: ff
+[RAM] 179500 ns: wrote: 01d7 with 00
+[ROM] 179500 ns: read 01d6: ff
+[RAM] 180000 ns: wrote: 01d6 with 08
+[ROM] 180000 ns: read 01d5: ff
+[RAM] 180500 ns: wrote: 01d5 with 97
+[ROM] 180500 ns: read 1ffe: ff
+[ROM] 181000 ns: read 1fff: ff
+[ROM] 182000 ns: read 0000: ff
+[ROM] 183000 ns: read 0001: ff
+[ROM] 183500 ns: read 0002: ff
+[ROM] 184000 ns: read 0003: ff
+[ROM] 188000 ns: read 0004: ff
+[ROM] 188500 ns: read 0000: ff
+[ROM] 189000 ns: read 0005: ff
+[ROM] 189500 ns: read 0006: ff
+[ROM] 190000 ns: read 0007: ff
+[ROM] 190500 ns: read 01d4: ff
+[RAM] 191000 ns: wrote: 01d4 with 00
+[ROM] 191000 ns: read 01d3: ff
+[RAM] 191500 ns: wrote: 01d3 with 08
+[ROM] 191500 ns: read 01d2: ff
+[RAM] 192000 ns: wrote: 01d2 with 97
+[ROM] 192000 ns: read 1ffe: ff
+[ROM] 192500 ns: read 1fff: ff
+[ROM] 193500 ns: read 0000: ff
+[ROM] 194500 ns: read 0001: ff
+[ROM] 195000 ns: read 0002: ff
+[ROM] 195500 ns: read 0003: ff
+[ROM] 199500 ns: read 0004: ff
+[ROM] 200000 ns: read 0000: ff
+[ROM] 200500 ns: read 0005: ff
+[ROM] 201000 ns: read 0006: ff
+[ROM] 201500 ns: read 0007: ff
+[ROM] 202000 ns: read 01d1: ff
+[RAM] 202500 ns: wrote: 01d1 with 00
+[ROM] 202500 ns: read 01d0: ff
+[RAM] 203000 ns: wrote: 01d0 with 08
+[ROM] 203000 ns: read 01cf: ff
+[RAM] 203500 ns: wrote: 01cf with 97
+[ROM] 203500 ns: read 1ffe: ff
+[ROM] 204000 ns: read 1fff: ff
+[ROM] 205000 ns: read 0000: ff
+[ROM] 206000 ns: read 0001: ff
+[ROM] 206500 ns: read 0002: ff
+[ROM] 207000 ns: read 0003: ff
+[ROM] 211000 ns: read 0004: ff
+[ROM] 211500 ns: read 0000: ff
+[ROM] 212000 ns: read 0005: ff
+[ROM] 212500 ns: read 0006: ff
+[ROM] 213000 ns: read 0007: ff
+[ROM] 213500 ns: read 01ce: ff
+[RAM] 214000 ns: wrote: 01ce with 00
+[ROM] 214000 ns: read 01cd: ff
+[RAM] 214500 ns: wrote: 01cd with 08
+[ROM] 214500 ns: read 01cc: ff
+[RAM] 215000 ns: wrote: 01cc with 97
+[ROM] 215000 ns: read 1ffe: ff
+[ROM] 215500 ns: read 1fff: ff
+[ROM] 216500 ns: read 0000: ff
+[ROM] 217500 ns: read 0001: ff
+[ROM] 218000 ns: read 0002: ff
+[ROM] 218500 ns: read 0003: ff
+[ROM] 222500 ns: read 0004: ff
+[ROM] 223000 ns: read 0000: ff
+[ROM] 223500 ns: read 0005: ff
+[ROM] 224000 ns: read 0006: ff
+[ROM] 224500 ns: read 0007: ff
+[ROM] 225000 ns: read 01cb: ff
+[RAM] 225500 ns: wrote: 01cb with 00
+[ROM] 225500 ns: read 01ca: ff
+[RAM] 226000 ns: wrote: 01ca with 08
+[ROM] 226000 ns: read 01c9: ff
+[RAM] 226500 ns: wrote: 01c9 with 97
+[ROM] 226500 ns: read 1ffe: ff
+[ROM] 227000 ns: read 1fff: ff
+[ROM] 228000 ns: read 0000: ff
+[ROM] 229000 ns: read 0001: ff
+[ROM] 229500 ns: read 0002: ff
+[ROM] 230000 ns: read 0003: ff
+[ROM] 234000 ns: read 0004: ff
+[ROM] 234500 ns: read 0000: ff
+[ROM] 235000 ns: read 0005: ff
+[ROM] 235500 ns: read 0006: ff
+[ROM] 236000 ns: read 0007: ff
+[ROM] 236500 ns: read 01c8: ff
+[RAM] 237000 ns: wrote: 01c8 with 00
+[ROM] 237000 ns: read 01c7: ff
+[RAM] 237500 ns: wrote: 01c7 with 08
+[ROM] 237500 ns: read 01c6: ff
+[RAM] 238000 ns: wrote: 01c6 with 97
+[ROM] 238000 ns: read 1ffe: ff
+[ROM] 238500 ns: read 1fff: ff
+[ROM] 239500 ns: read 0000: ff
+[ROM] 240500 ns: read 0001: ff
+[ROM] 241000 ns: read 0002: ff
+[ROM] 241500 ns: read 0003: ff
+[ROM] 245500 ns: read 0004: ff
+[ROM] 246000 ns: read 0000: ff
+[ROM] 246500 ns: read 0005: ff
+[ROM] 247000 ns: read 0006: ff
+[ROM] 247500 ns: read 0007: ff
+[ROM] 248000 ns: read 01c5: ff
+[RAM] 248500 ns: wrote: 01c5 with 00
+[ROM] 248500 ns: read 01c4: ff
+[RAM] 249000 ns: wrote: 01c4 with 08
+[ROM] 249000 ns: read 01c3: ff
+[RAM] 249500 ns: wrote: 01c3 with 97
+[ROM] 249500 ns: read 1ffe: ff
+[ROM] 250000 ns: read 1fff: ff
+[ROM] 251000 ns: read 0000: ff
+[ROM] 252000 ns: read 0001: ff
+[ROM] 252500 ns: read 0002: ff
+[ROM] 253000 ns: read 0003: ff
+[ROM] 257000 ns: read 0004: ff
+[ROM] 257500 ns: read 0000: ff
+[ROM] 258000 ns: read 0005: ff
+[ROM] 258500 ns: read 0006: ff
+[ROM] 259000 ns: read 0007: ff
+[ROM] 259500 ns: read 01c2: ff
+[RAM] 260000 ns: wrote: 01c2 with 00
+[ROM] 260000 ns: read 01c1: ff
+[RAM] 260500 ns: wrote: 01c1 with 08
+[ROM] 260500 ns: read 01c0: ff
+[RAM] 261000 ns: wrote: 01c0 with 97
+[ROM] 261000 ns: read 1ffe: ff
+[ROM] 261500 ns: read 1fff: ff
+[ROM] 262500 ns: read 0000: ff
+[ROM] 263500 ns: read 0001: ff
+[ROM] 264000 ns: read 0002: ff
+[ROM] 264500 ns: read 0003: ff
+[ROM] 268500 ns: read 0004: ff
+[ROM] 269000 ns: read 0000: ff
+[ROM] 269500 ns: read 0005: ff
+[ROM] 270000 ns: read 0006: ff
+[ROM] 270500 ns: read 0007: ff
+[ROM] 271000 ns: read 01bf: ff
+[RAM] 271500 ns: wrote: 01bf with 00
+[ROM] 271500 ns: read 01be: ff
+[RAM] 272000 ns: wrote: 01be with 08
+[ROM] 272000 ns: read 01bd: ff
+[RAM] 272500 ns: wrote: 01bd with 97
+[ROM] 272500 ns: read 1ffe: ff
+[ROM] 273000 ns: read 1fff: ff
+[ROM] 274000 ns: read 0000: ff
+[ROM] 275000 ns: read 0001: ff
+[ROM] 275500 ns: read 0002: ff
+[ROM] 276000 ns: read 0003: ff
+[ROM] 280000 ns: read 0004: ff
+[ROM] 280500 ns: read 0000: ff
+[ROM] 281000 ns: read 0005: ff
+[ROM] 281500 ns: read 0006: ff
+[ROM] 282000 ns: read 0007: ff
+[ROM] 282500 ns: read 01bc: ff
+[RAM] 283000 ns: wrote: 01bc with 00
+[ROM] 283000 ns: read 01bb: ff
+[RAM] 283500 ns: wrote: 01bb with 08
+[ROM] 283500 ns: read 01ba: ff
+[RAM] 284000 ns: wrote: 01ba with 97
+[ROM] 284000 ns: read 1ffe: ff
+[ROM] 284500 ns: read 1fff: ff
+[ROM] 285500 ns: read 0000: ff

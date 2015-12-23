@@ -1,0 +1,78 @@
+load ROM
+ROM loaded
+WARNING: Default time step is used for VCD tracing.
+[ROM]   1500 ns: read 1ffc: ff
+[ROM]   2500 ns: read 0100: ff
+[ROM]   3000 ns: read 01ff: ff
+[ROM]   3500 ns: read 01fe: ff
+[ROM]   4000 ns: read 1ffc: ff
+[ROM]   4500 ns: read 1ffd: ff
+[ROM]   5000 ns: read 1fff: ff
+[ROM]   6000 ns: read 01fd: ff
+[RAM]   6500 ns: wrote: 01fd with ff
+[ROM]   6500 ns: read 01fc: ff
+[RAM]   7000 ns: wrote: 01fc with ff
+[ROM]   7000 ns: read 01fb: ff
+[RAM]   7500 ns: wrote: 01fb with 04
+[ROM]   7500 ns: read 1ffa: 0e
+[ROM]   8000 ns: read 1ffb: ff
+[ROM]   8500 ns: read 1f0e: b0
+[ROM]   9000 ns: read 1f0f: 02
+[ROM]   9500 ns: read 1f10: c6
+[ROM]  10000 ns: read 1f11: 03
+[ROM]  10500 ns: read 0003: ff
+[ROM]  11500 ns: read 0003: ff
+[RAM]  12000 ns: wrote: 0003 with ff
+[ROM]  12000 ns: read 1f12: 60
+[ROM]  12500 ns: read 01fa: ff
+[ROM]  13000 ns: read 01fb: ff
+[ROM]  13500 ns: read 01fc: ff
+[ROM]  14500 ns: read 1f05: 0b
+[ROM]  15000 ns: read 1f06: 98
+[ROM]  19000 ns: read 1f07: 49
+[ROM]  20000 ns: read 1f08: ff
+[ROM]  20500 ns: read 1f09: 38
+[ROM]  21000 ns: read 1f0a: 65
+[ROM]  22000 ns: read 1f0b: 02
+[ROM]  22500 ns: read 0002: ff
+[ROM]  23000 ns: read 1f0c: 85
+[ROM]  23500 ns: read 1f0d: 02
+[ROM]  24000 ns: read 0002: ff
+[RAM]  24500 ns: wrote: 0002 with fc
+[ROM]  24500 ns: read 1f0e: b0
+[ROM]  25000 ns: read 1f0f: 02
+[ROM]  25500 ns: read 1f10: c6
+[ROM]  26000 ns: read 1f12: 60
+[ROM]  26500 ns: read 01fc: ff
+[ROM]  27000 ns: read 01fd: ff
+[ROM]  27500 ns: read 01fe: ff
+[ROM]  28500 ns: read 0100: ff
+[ROM]  29000 ns: read 0101: ff
+[ROM]  29500 ns: read 01fe: ff
+[RAM]  30000 ns: wrote: 01fe with 01
+[ROM]  30000 ns: read 01fd: ff
+[RAM]  30500 ns: wrote: 01fd with 02
+[ROM]  30500 ns: read 01fc: ff
+[RAM]  31000 ns: wrote: 01fc with 97
+[ROM]  31000 ns: read 1ffe: ff
+[ROM]  31500 ns: read 1fff: ff
+[ROM]  32500 ns: read 0000: ff
+[ROM]  33500 ns: read 0001: ff
+[ROM]  34000 ns: read 0002: ff
+[ROM]  34500 ns: read 0003: ff
+[ROM]  38500 ns: read 0004: ff
+[ROM]  39000 ns: read 0000: ff
+[ROM]  39500 ns: read 0005: ff
+[ROM]  40000 ns: read 0006: ff
+[ROM]  40500 ns: read 0007: ff
+[ROM]  41000 ns: read 01fb: ff
+[RAM]  41500 ns: wrote: 01fb with 00
+[ROM]  41500 ns: read 01fa: ff
+[RAM]  42000 ns: wrote: 01fa with 08
+[ROM]  42000 ns: read 01f9: ff
+[RAM]  42500 ns: wrote: 01f9 with 97
+[ROM]  42500 ns: read 1ffe: ff
+[ROM]  43000 ns: read 1fff: ff
+[ROM]  44000 ns: read 0000: ff
+[ROM]  45000 ns: read 0001: ff
+[ROM]  45500 ns: read 0002: ff

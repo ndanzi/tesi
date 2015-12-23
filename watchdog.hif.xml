@@ -1,0 +1,520 @@
+<SYSTEM formatVersion="2" generationDate="17:37:19:550737" languageId="RTL" name="system" release="stable" revisionNumber="2746" tool="HR">
+	<LIBRARYDEFS>
+		<LIBRARYDEF languageId="RTL" name="hif_verilog_standard" standard="true"/>
+	</LIBRARYDEFS>
+	<DESIGNUNITS>
+		<DESIGNUNIT name="watchdog">
+			<VIEW languageId="RTL" name="behav" standard="false">
+				<TEMPLATE_PARAMETERS>
+					<VALUETP compileTimeConstant="true" name="DEADLINE">
+						<TYPE>
+							<BITVECTOR constexpr="true" logic="true" resolved="true" signed="true" typeVariant="NATIVE_TYPE">
+								<RANGE direction="DOWNTO">
+									<LEFTBOUND>
+										<INTVAL value="31"/>
+									</LEFTBOUND>
+									<RIGHTBOUND>
+										<INTVAL value="0"/>
+									</RIGHTBOUND>
+								</RANGE>
+							</BITVECTOR>
+						</TYPE>
+						<VALUE>
+							<BITVECTORVAL VALUE="00000000000000000000101110111000">
+								<TYPE>
+									<BITVECTOR constexpr="true" logic="true" resolved="true" signed="true" typeVariant="NATIVE_TYPE">
+										<RANGE direction="DOWNTO">
+											<LEFTBOUND>
+												<INTVAL value="31"/>
+											</LEFTBOUND>
+											<RIGHTBOUND>
+												<INTVAL value="0"/>
+											</RIGHTBOUND>
+										</RANGE>
+									</BITVECTOR>
+								</TYPE>
+							</BITVECTORVAL>
+						</VALUE>
+						<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="24"/>
+					</VALUETP>
+					<VALUETP compileTimeConstant="true" name="CLK_PERIOD">
+						<TYPE>
+							<BITVECTOR constexpr="true" logic="true" resolved="true" signed="true" typeVariant="NATIVE_TYPE">
+								<RANGE direction="DOWNTO">
+									<LEFTBOUND>
+										<INTVAL value="31"/>
+									</LEFTBOUND>
+									<RIGHTBOUND>
+										<INTVAL value="0"/>
+									</RIGHTBOUND>
+								</RANGE>
+							</BITVECTOR>
+						</TYPE>
+						<VALUE>
+							<BITVECTORVAL VALUE="00000000000000000000000000010100">
+								<TYPE>
+									<BITVECTOR constexpr="true" logic="true" resolved="true" signed="true" typeVariant="NATIVE_TYPE">
+										<RANGE direction="DOWNTO">
+											<LEFTBOUND>
+												<INTVAL value="31"/>
+											</LEFTBOUND>
+											<RIGHTBOUND>
+												<INTVAL value="0"/>
+											</RIGHTBOUND>
+										</RANGE>
+									</BITVECTOR>
+								</TYPE>
+							</BITVECTORVAL>
+						</VALUE>
+						<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="24"/>
+					</VALUETP>
+				</TEMPLATE_PARAMETERS>
+				<DECLARATIONS>
+					<CONSTANT define="false" instance="true" name="hif_verilog_timescale_unit" standard="false">
+						<TYPE>
+							<TIME constexpr="true" typeVariant="NATIVE_TYPE"/>
+						</TYPE>
+						<VALUE>
+							<TIMEVALUE unit="NS" value="1">
+								<TYPE>
+									<TIME constexpr="true" typeVariant="NATIVE_TYPE"/>
+								</TYPE>
+							</TIMEVALUE>
+						</VALUE>
+					</CONSTANT>
+					<CONSTANT define="false" instance="true" name="hif_verilog_timescale_precision" standard="false">
+						<TYPE>
+							<TIME constexpr="true" typeVariant="NATIVE_TYPE"/>
+						</TYPE>
+						<VALUE>
+							<TIMEVALUE unit="PS" value="1">
+								<TYPE>
+									<TIME constexpr="true" typeVariant="NATIVE_TYPE"/>
+								</TYPE>
+							</TIMEVALUE>
+						</VALUE>
+					</CONSTANT>
+				</DECLARATIONS>
+				<ENTITY name="Entity">
+					<PORT direction="IN" name="clk" wrapper="false">
+						<TYPE>
+							<BIT constexpr="false" logic="true" resolved="true" typeVariant="NATIVE_TYPE"/>
+						</TYPE>
+						<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="10"/>
+					</PORT>
+					<PORT direction="IN" name="reset" wrapper="false">
+						<TYPE>
+							<BIT constexpr="false" logic="true" resolved="true" typeVariant="NATIVE_TYPE"/>
+						</TYPE>
+						<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="12"/>
+					</PORT>
+					<PORT direction="IN" name="en" wrapper="false">
+						<TYPE>
+							<BIT constexpr="false" logic="true" resolved="true" typeVariant="NATIVE_TYPE"/>
+						</TYPE>
+						<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="9"/>
+					</PORT>
+					<PORT direction="OUT" name="expired" wrapper="false">
+						<VALUE>
+							<BITVAL value="Z">
+								<TYPE>
+									<BIT constexpr="true" logic="true" resolved="true" typeVariant="NATIVE_TYPE"/>
+								</TYPE>
+							</BITVAL>
+						</VALUE>
+						<TYPE>
+							<BIT constexpr="false" logic="true" resolved="true" typeVariant="NATIVE_TYPE"/>
+						</TYPE>
+						<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="15"/>
+					</PORT>
+					<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="7"/>
+				</ENTITY>
+				<CONTENTS name="Architecture">
+					<DECLARATIONS>
+						<SIGNAL name="counter" standard="false" wrapper="false">
+							<TYPE>
+								<BITVECTOR constexpr="false" logic="true" resolved="true" signed="false" typeVariant="NATIVE_TYPE">
+									<RANGE direction="DOWNTO">
+										<LEFTBOUND>
+											<INTVAL value="31"/>
+										</LEFTBOUND>
+										<RIGHTBOUND>
+											<INTVAL value="0"/>
+										</RIGHTBOUND>
+									</RANGE>
+								</BITVECTOR>
+							</TYPE>
+							<VALUE>
+								<BITVECTORVAL VALUE="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+									<TYPE>
+										<BITVECTOR constexpr="true" logic="true" resolved="true" signed="false" typeVariant="NATIVE_TYPE">
+											<RANGE direction="DOWNTO">
+												<LEFTBOUND>
+													<INTVAL value="31"/>
+												</LEFTBOUND>
+												<RIGHTBOUND>
+													<INTVAL value="0"/>
+												</RIGHTBOUND>
+											</RANGE>
+										</BITVECTOR>
+									</TYPE>
+								</BITVECTORVAL>
+							</VALUE>
+							<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="18"/>
+						</SIGNAL>
+					</DECLARATIONS>
+					<STATETABLES>
+						<STATETABLE dontinitialize="true" entryStateName="" flavour="HDL" name="process" standard="false">
+							<SENSITIVITY_POS>
+								<IDENTIFIER name="clk">
+									<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="21"/>
+								</IDENTIFIER>
+							</SENSITIVITY_POS>
+							<SENSITIVITY_NEG>
+								<IDENTIFIER name="reset">
+									<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="34"/>
+								</IDENTIFIER>
+							</SENSITIVITY_NEG>
+							<STATES>
+								<STATE atomic="false" name="process" priority="0">
+									<ACTIONS>
+										<IF>
+											<ALT>
+												<CONDITION>
+													<CAST>
+														<VALUE>
+															<EXPRESSION operator="==">
+																<VALUE1>
+																	<IDENTIFIER name="reset">
+																		<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="11"/>
+																	</IDENTIFIER>
+																</VALUE1>
+																<VALUE2>
+																	<BITVAL value="0">
+																		<TYPE>
+																			<BIT constexpr="true" logic="true" resolved="true" typeVariant="NATIVE_TYPE"/>
+																		</TYPE>
+																	</BITVAL>
+																</VALUE2>
+																<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="16"/>
+															</EXPRESSION>
+														</VALUE>
+														<TYPE>
+															<BOOLEAN constexpr="false" typeVariant="NATIVE_TYPE"/>
+														</TYPE>
+													</CAST>
+												</CONDITION>
+												<ASSIGN>
+													<LEFTHANDSIDE>
+														<IDENTIFIER name="counter">
+															<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="10"/>
+														</IDENTIFIER>
+													</LEFTHANDSIDE>
+													<RIGHTHANDSIDE>
+														<BITVECTORVAL VALUE="00000000000000000000000000000000">
+															<TYPE>
+																<BITVECTOR constexpr="true" logic="true" resolved="true" signed="false" typeVariant="NATIVE_TYPE">
+																	<RANGE direction="DOWNTO">
+																		<LEFTBOUND>
+																			<INTVAL value="31"/>
+																		</LEFTBOUND>
+																		<RIGHTBOUND>
+																			<INTVAL value="0"/>
+																		</RIGHTBOUND>
+																	</RANGE>
+																</BITVECTOR>
+															</TYPE>
+														</BITVECTORVAL>
+													</RIGHTHANDSIDE>
+													<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="16"/>
+												</ASSIGN>
+												<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="3"/>
+											</ALT>
+											<ALT>
+												<CONDITION>
+													<CAST>
+														<VALUE>
+															<EXPRESSION operator="==">
+																<VALUE1>
+																	<IDENTIFIER name="en">
+																		<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="8"/>
+																	</IDENTIFIER>
+																</VALUE1>
+																<VALUE2>
+																	<BITVAL value="0">
+																		<TYPE>
+																			<BIT constexpr="true" logic="true" resolved="true" typeVariant="NATIVE_TYPE"/>
+																		</TYPE>
+																	</BITVAL>
+																</VALUE2>
+																<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="13"/>
+															</EXPRESSION>
+														</VALUE>
+														<TYPE>
+															<BOOLEAN constexpr="false" typeVariant="NATIVE_TYPE"/>
+														</TYPE>
+													</CAST>
+												</CONDITION>
+												<IF>
+													<ALT>
+														<CONDITION>
+															<CAST>
+																<VALUE>
+																	<EXPRESSION operator="==">
+																		<VALUE1>
+																			<IDENTIFIER name="counter">
+																				<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="13"/>
+																			</IDENTIFIER>
+																		</VALUE1>
+																		<VALUE2>
+																			<CAST>
+																				<VALUE>
+																					<EXPRESSION operator="*">
+																						<VALUE1>
+																							<EXPRESSION operator="/">
+																								<VALUE1>
+																									<IDENTIFIER name="DEADLINE">
+																										<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="23"/>
+																									</IDENTIFIER>
+																								</VALUE1>
+																								<VALUE2>
+																									<IDENTIFIER name="CLK_PERIOD">
+																										<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="39"/>
+																									</IDENTIFIER>
+																								</VALUE2>
+																							</EXPRESSION>
+																						</VALUE1>
+																						<VALUE2>
+																							<BITVECTORVAL VALUE="00000000000000000000001111101000">
+																								<TYPE>
+																									<BITVECTOR constexpr="true" logic="true" resolved="true" signed="true" typeVariant="NATIVE_TYPE">
+																										<RANGE direction="DOWNTO">
+																											<LEFTBOUND>
+																												<INTVAL value="31"/>
+																											</LEFTBOUND>
+																											<RIGHTBOUND>
+																												<INTVAL value="0"/>
+																											</RIGHTBOUND>
+																										</RANGE>
+																									</BITVECTOR>
+																								</TYPE>
+																							</BITVECTORVAL>
+																						</VALUE2>
+																					</EXPRESSION>
+																				</VALUE>
+																				<TYPE>
+																					<BITVECTOR constexpr="true" logic="true" resolved="true" signed="true" typeVariant="NATIVE_TYPE">
+																						<RANGE direction="DOWNTO">
+																							<LEFTBOUND>
+																								<INTVAL value="31"/>
+																							</LEFTBOUND>
+																							<RIGHTBOUND>
+																								<INTVAL value="0"/>
+																							</RIGHTBOUND>
+																						</RANGE>
+																					</BITVECTOR>
+																				</TYPE>
+																			</CAST>
+																		</VALUE2>
+																		<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="40"/>
+																	</EXPRESSION>
+																</VALUE>
+																<TYPE>
+																	<BOOLEAN constexpr="false" typeVariant="NATIVE_TYPE"/>
+																</TYPE>
+															</CAST>
+														</CONDITION>
+														<ASSIGN>
+															<LEFTHANDSIDE>
+																<IDENTIFIER name="counter">
+																	<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="10"/>
+																</IDENTIFIER>
+															</LEFTHANDSIDE>
+															<RIGHTHANDSIDE>
+																<BITVECTORVAL VALUE="00000000000000000000000000000000">
+																	<TYPE>
+																		<BITVECTOR constexpr="true" logic="true" resolved="true" signed="false" typeVariant="NATIVE_TYPE">
+																			<RANGE direction="DOWNTO">
+																				<LEFTBOUND>
+																					<INTVAL value="31"/>
+																				</LEFTBOUND>
+																				<RIGHTBOUND>
+																					<INTVAL value="0"/>
+																				</RIGHTBOUND>
+																			</RANGE>
+																		</BITVECTOR>
+																	</TYPE>
+																</BITVECTORVAL>
+															</RIGHTHANDSIDE>
+															<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="16"/>
+														</ASSIGN>
+														<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="3"/>
+													</ALT>
+													<DEFAULTS>
+														<ASSIGN>
+															<LEFTHANDSIDE>
+																<IDENTIFIER name="counter">
+																	<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="10"/>
+																</IDENTIFIER>
+															</LEFTHANDSIDE>
+															<RIGHTHANDSIDE>
+																<EXPRESSION operator="+">
+																	<VALUE1>
+																		<IDENTIFIER name="counter">
+																			<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="18"/>
+																		</IDENTIFIER>
+																	</VALUE1>
+																	<VALUE2>
+																		<BITVECTORVAL VALUE="00000000000000000000000000000001">
+																			<TYPE>
+																				<BITVECTOR constexpr="true" logic="true" resolved="true" signed="true" typeVariant="NATIVE_TYPE">
+																					<RANGE direction="DOWNTO">
+																						<LEFTBOUND>
+																							<INTVAL value="31"/>
+																						</LEFTBOUND>
+																						<RIGHTBOUND>
+																							<INTVAL value="0"/>
+																						</RIGHTBOUND>
+																					</RANGE>
+																				</BITVECTOR>
+																			</TYPE>
+																		</BITVECTORVAL>
+																	</VALUE2>
+																	<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="20"/>
+																</EXPRESSION>
+															</RIGHTHANDSIDE>
+															<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="20"/>
+														</ASSIGN>
+													</DEFAULTS>
+													<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="3"/>
+												</IF>
+												<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="3"/>
+											</ALT>
+											<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="3"/>
+										</IF>
+									</ACTIONS>
+									<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="7"/>
+								</STATE>
+							</STATES>
+							<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="7"/>
+						</STATETABLE>
+						<STATETABLE dontinitialize="false" entryStateName="" flavour="HDL" name="st" standard="false">
+							<SENSITIVITY>
+								<IDENTIFIER name="counter">
+									<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="26"/>
+								</IDENTIFIER>
+							</SENSITIVITY>
+							<STATES>
+								<STATE atomic="false" name="state" priority="0">
+									<ACTIONS>
+										<ASSIGN>
+											<LEFTHANDSIDE>
+												<IDENTIFIER name="expired">
+													<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="15"/>
+												</IDENTIFIER>
+											</LEFTHANDSIDE>
+											<RIGHTHANDSIDE>
+												<WHEN>
+													<ALT>
+														<CONDITION>
+															<CAST>
+																<VALUE>
+																	<EXPRESSION operator="===">
+																		<VALUE1>
+																			<IDENTIFIER name="counter">
+																				<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="26"/>
+																			</IDENTIFIER>
+																		</VALUE1>
+																		<VALUE2>
+																			<CAST>
+																				<VALUE>
+																					<EXPRESSION operator="*">
+																						<VALUE1>
+																							<EXPRESSION operator="/">
+																								<VALUE1>
+																									<IDENTIFIER name="DEADLINE">
+																										<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="36"/>
+																									</IDENTIFIER>
+																								</VALUE1>
+																								<VALUE2>
+																									<IDENTIFIER name="CLK_PERIOD">
+																										<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="52"/>
+																									</IDENTIFIER>
+																								</VALUE2>
+																							</EXPRESSION>
+																						</VALUE1>
+																						<VALUE2>
+																							<BITVECTORVAL VALUE="00000000000000000000001111101000">
+																								<TYPE>
+																									<BITVECTOR constexpr="true" logic="true" resolved="true" signed="true" typeVariant="NATIVE_TYPE">
+																										<RANGE direction="DOWNTO">
+																											<LEFTBOUND>
+																												<INTVAL value="31"/>
+																											</LEFTBOUND>
+																											<RIGHTBOUND>
+																												<INTVAL value="0"/>
+																											</RIGHTBOUND>
+																										</RANGE>
+																									</BITVECTOR>
+																								</TYPE>
+																							</BITVECTORVAL>
+																						</VALUE2>
+																					</EXPRESSION>
+																				</VALUE>
+																				<TYPE>
+																					<BITVECTOR constexpr="true" logic="true" resolved="true" signed="true" typeVariant="NATIVE_TYPE">
+																						<RANGE direction="DOWNTO">
+																							<LEFTBOUND>
+																								<INTVAL value="31"/>
+																							</LEFTBOUND>
+																							<RIGHTBOUND>
+																								<INTVAL value="0"/>
+																							</RIGHTBOUND>
+																						</RANGE>
+																					</BITVECTOR>
+																				</TYPE>
+																			</CAST>
+																		</VALUE2>
+																		<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="53"/>
+																	</EXPRESSION>
+																</VALUE>
+																<TYPE>
+																	<BOOLEAN constexpr="false" typeVariant="NATIVE_TYPE"/>
+																</TYPE>
+															</CAST>
+														</CONDITION>
+														<VALUE>
+															<BITVAL value="1">
+																<TYPE>
+																	<BIT constexpr="true" logic="true" resolved="true" typeVariant="NATIVE_TYPE"/>
+																</TYPE>
+															</BITVAL>
+														</VALUE>
+														<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="64"/>
+													</ALT>
+													<DEFAULT>
+														<BITVAL value="0">
+															<TYPE>
+																<BIT constexpr="true" logic="true" resolved="true" typeVariant="NATIVE_TYPE"/>
+															</TYPE>
+														</BITVAL>
+													</DEFAULT>
+													<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="64"/>
+												</WHEN>
+											</RIGHTHANDSIDE>
+											<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="64"/>
+										</ASSIGN>
+									</ACTIONS>
+								</STATE>
+							</STATES>
+						</STATETABLE>
+					</STATETABLES>
+					<GLOBALACTION/>
+					<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="7"/>
+				</CONTENTS>
+				<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="7"/>
+			</VIEW>
+			<CODE_INFO column_number="0" file="watchdog_verilog/watchdog.v" line_number="7"/>
+		</DESIGNUNIT>
+	</DESIGNUNITS>
+</SYSTEM>
