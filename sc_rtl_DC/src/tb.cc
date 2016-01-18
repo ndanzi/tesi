@@ -46,7 +46,7 @@ void tb::_initializeROM()
 {
     //hif_verilog_standard::hif_verilog__system_readmemh("rom8kx8.mem", _rom);
     std::cout << "load ROM" << std::endl;
-    hif_verilog_standard::hif_verilog__system_readmemh("rom2.mem", _rom);
+    hif_verilog_standard::hif_verilog__system_readmemh("rom.mem", _rom);
     std::cout << "ROM loaded" << std::endl;
 }
 
@@ -62,6 +62,7 @@ void tb::run()
     nmi_n = sc_dt::sc_logic('1');
     for (int i = 0; i < 3; ++i) memory_processes();
 
+    std::cout << "initialized" << std::endl;
     res_n = sc_dt::sc_logic('1');
     nmi_n = sc_dt::sc_logic('0');
 

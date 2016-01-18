@@ -1,0 +1,16 @@
+#; passed = 0xABCD0123;
+#L005E:	ldx     #$01
+#	lda     #$23
+#	ldy     #$20
+#	jsr     staxysp
+
+A2 01 A9 23 A0 20
+
+#; passed = 0;
+#	ldx     #$00
+#	lda     #$00
+#	ldy     #$20
+#	jsr     staxysp
+
+A2 00 A9 00 A0 20
+

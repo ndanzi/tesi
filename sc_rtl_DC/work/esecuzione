@@ -1,0 +1,365 @@
+load ROM
+ROM loaded
+WARNING: Default time step is used for VCD tracing.
+[ROM]   1500 ns: read 8188: ff
+	[datai] =ff
+initialized
+	[datai] =ff
+[ROM]   2500 ns: read 0256: ff
+	[datai] =000
+[ROM]   3000 ns: read 0511: ff
+	[datai] =000
+[ROM]   3500 ns: read 0510: ff
+	[datai] =000
+[ROM]   4000 ns: read 8188: ff
+	[datai] =ff
+[ROM]   4500 ns: read 8189: ff
+	[datai] =ff
+[ROM]   5000 ns: read 8191: ff
+	[datai] =ff
+	[datai] =ff
+[ROM]   6000 ns: read 0509: ff
+[RAM]   6500 ns: wrote: 01fd with ff
+	[datao] =ff
+[ROM]   6500 ns: read 0508: ff
+[RAM]   7000 ns: wrote: 01fc with ff
+	[datao] =ff
+[ROM]   7000 ns: read 0507: ff
+[RAM]   7500 ns: wrote: 01fb with 04
+	[datao] =04
+[ROM]   7500 ns: read 8186: 0e
+	[datai] =0e
+[ROM]   8000 ns: read 8187: ff
+	[datai] =ff
+[ROM]   8500 ns: read 7950: b0
+	[datai] =b0
+[ROM]   9000 ns: read 7951: 02
+	[datai] =02
+[ROM]   9500 ns: read 7952: c6
+	[datai] =c6
+[ROM]  10000 ns: read 7953: 03
+	[datai] =03
+[ROM]  10500 ns: read 0003: ff
+	[datai] =000
+	[datai] =000
+[ROM]  11500 ns: read 0003: ff
+[RAM]  12000 ns: wrote: 0003 with ff
+	[datao] =ff
+[ROM]  12000 ns: read 7954: 60
+	[datai] =60
+[ROM]  12500 ns: read 0506: ff
+	[datai] =000
+[ROM]  13000 ns: read 0507: ff
+	[datai] =004
+[ROM]  13500 ns: read 0508: ff
+	[datai] =0ff
+	[datai] =0ff
+[ROM]  14500 ns: read 7941: 0b
+	[datai] =0b
+[ROM]  15000 ns: read 7942: 98
+	[datai] =98
+	[datai] =98
+	[datai] =98
+	[datai] =98
+	[datai] =98
+	[datai] =98
+	[datai] =98
+	[datai] =98
+[ROM]  19000 ns: read 7943: 49
+	[datai] =49
+	[datai] =49
+[ROM]  20000 ns: read 7944: ff
+	[datai] =ff
+[ROM]  20500 ns: read 7945: 38
+	[datai] =38
+[ROM]  21000 ns: read 7946: 65
+	[datai] =65
+	[datai] =65
+[ROM]  22000 ns: read 7947: 02
+	[datai] =02
+[ROM]  22500 ns: read 0002: ff
+	[datai] =000
+[ROM]  23000 ns: read 7948: 85
+	[datai] =85
+[ROM]  23500 ns: read 7949: 02
+	[datai] =02
+[ROM]  24000 ns: read 0002: ff
+[RAM]  24500 ns: wrote: 0002 with fc
+	[datao] =fc
+[ROM]  24500 ns: read 7950: b0
+	[datai] =b0
+[ROM]  25000 ns: read 7951: 02
+	[datai] =02
+[ROM]  25500 ns: read 7952: c6
+	[datai] =c6
+[ROM]  26000 ns: read 7954: 60
+	[datai] =60
+[ROM]  26500 ns: read 0508: ff
+	[datai] =0ff
+[ROM]  27000 ns: read 0509: ff
+	[datai] =0ff
+[ROM]  27500 ns: read 0510: ff
+	[datai] =000
+	[datai] =000
+[ROM]  28500 ns: read 0256: ff
+	[datai] =000
+[ROM]  29000 ns: read 0257: ff
+	[datai] =000
+[ROM]  29500 ns: read 0510: ff
+[RAM]  30000 ns: wrote: 01fe with 01
+	[datao] =01
+[ROM]  30000 ns: read 0509: ff
+[RAM]  30500 ns: wrote: 01fd with 02
+	[datao] =02
+[ROM]  30500 ns: read 0508: ff
+[RAM]  31000 ns: wrote: 01fc with 97
+	[datao] =97
+[ROM]  31000 ns: read 8190: ff
+	[datai] =ff
+[ROM]  31500 ns: read 8191: ff
+	[datai] =ff
+	[datai] =ff
+[ROM]  32500 ns: read 0000: ff
+	[datai] =000
+	[datai] =000
+[ROM]  33500 ns: read 0001: ff
+	[datai] =000
+[ROM]  34000 ns: read 0002: ff
+	[datai] =0fc
+[ROM]  34500 ns: read 0003: ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+[ROM]  38500 ns: read 0004: ff
+	[datai] =000
+[ROM]  39000 ns: read 0000: ff
+	[datai] =000
+[ROM]  39500 ns: read 0005: ff
+	[datai] =000
+[ROM]  40000 ns: read 0006: ff
+	[datai] =000
+[ROM]  40500 ns: read 0007: ff
+	[datai] =000
+[ROM]  41000 ns: read 0507: ff
+[RAM]  41500 ns: wrote: 01fb with 00
+	[datao] =00
+[ROM]  41500 ns: read 0506: ff
+[RAM]  42000 ns: wrote: 01fa with 08
+	[datao] =08
+[ROM]  42000 ns: read 0505: ff
+[RAM]  42500 ns: wrote: 01f9 with 97
+	[datao] =97
+[ROM]  42500 ns: read 8190: ff
+	[datai] =ff
+[ROM]  43000 ns: read 8191: ff
+	[datai] =ff
+	[datai] =ff
+[ROM]  44000 ns: read 0000: ff
+	[datai] =000
+	[datai] =000
+[ROM]  45000 ns: read 0001: ff
+	[datai] =000
+[ROM]  45500 ns: read 0002: ff
+	[datai] =0fc
+[ROM]  46000 ns: read 0003: ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+[ROM]  50000 ns: read 0004: ff
+	[datai] =000
+[ROM]  50500 ns: read 0000: ff
+	[datai] =000
+[ROM]  51000 ns: read 0005: ff
+	[datai] =000
+[ROM]  51500 ns: read 0006: ff
+	[datai] =000
+[ROM]  52000 ns: read 0007: ff
+	[datai] =000
+[ROM]  52500 ns: read 0504: ff
+[RAM]  53000 ns: wrote: 01f8 with 00
+	[datao] =00
+[ROM]  53000 ns: read 0503: ff
+[RAM]  53500 ns: wrote: 01f7 with 08
+	[datao] =08
+[ROM]  53500 ns: read 0502: ff
+[RAM]  54000 ns: wrote: 01f6 with 97
+	[datao] =97
+[ROM]  54000 ns: read 8190: ff
+	[datai] =ff
+[ROM]  54500 ns: read 8191: ff
+	[datai] =ff
+	[datai] =ff
+[ROM]  55500 ns: read 0000: ff
+	[datai] =000
+	[datai] =000
+[ROM]  56500 ns: read 0001: ff
+	[datai] =000
+[ROM]  57000 ns: read 0002: ff
+	[datai] =0fc
+[ROM]  57500 ns: read 0003: ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+[ROM]  61500 ns: read 0004: ff
+	[datai] =000
+[ROM]  62000 ns: read 0000: ff
+	[datai] =000
+[ROM]  62500 ns: read 0005: ff
+	[datai] =000
+[ROM]  63000 ns: read 0006: ff
+	[datai] =000
+[ROM]  63500 ns: read 0007: ff
+	[datai] =000
+[ROM]  64000 ns: read 0501: ff
+[RAM]  64500 ns: wrote: 01f5 with 00
+	[datao] =00
+[ROM]  64500 ns: read 0500: ff
+[RAM]  65000 ns: wrote: 01f4 with 08
+	[datao] =08
+[ROM]  65000 ns: read 0499: ff
+[RAM]  65500 ns: wrote: 01f3 with 97
+	[datao] =97
+[ROM]  65500 ns: read 8190: ff
+	[datai] =ff
+[ROM]  66000 ns: read 8191: ff
+	[datai] =ff
+	[datai] =ff
+[ROM]  67000 ns: read 0000: ff
+	[datai] =000
+	[datai] =000
+[ROM]  68000 ns: read 0001: ff
+	[datai] =000
+[ROM]  68500 ns: read 0002: ff
+	[datai] =0fc
+[ROM]  69000 ns: read 0003: ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+[ROM]  73000 ns: read 0004: ff
+	[datai] =000
+[ROM]  73500 ns: read 0000: ff
+	[datai] =000
+[ROM]  74000 ns: read 0005: ff
+	[datai] =000
+[ROM]  74500 ns: read 0006: ff
+	[datai] =000
+[ROM]  75000 ns: read 0007: ff
+	[datai] =000
+[ROM]  75500 ns: read 0498: ff
+[RAM]  76000 ns: wrote: 01f2 with 00
+	[datao] =00
+[ROM]  76000 ns: read 0497: ff
+[RAM]  76500 ns: wrote: 01f1 with 08
+	[datao] =08
+[ROM]  76500 ns: read 0496: ff
+[RAM]  77000 ns: wrote: 01f0 with 97
+	[datao] =97
+[ROM]  77000 ns: read 8190: ff
+	[datai] =ff
+[ROM]  77500 ns: read 8191: ff
+	[datai] =ff
+	[datai] =ff
+[ROM]  78500 ns: read 0000: ff
+	[datai] =000
+	[datai] =000
+[ROM]  79500 ns: read 0001: ff
+	[datai] =000
+[ROM]  80000 ns: read 0002: ff
+	[datai] =0fc
+[ROM]  80500 ns: read 0003: ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+[ROM]  84500 ns: read 0004: ff
+	[datai] =000
+[ROM]  85000 ns: read 0000: ff
+	[datai] =000
+[ROM]  85500 ns: read 0005: ff
+	[datai] =000
+[ROM]  86000 ns: read 0006: ff
+	[datai] =000
+[ROM]  86500 ns: read 0007: ff
+	[datai] =000
+[ROM]  87000 ns: read 0495: ff
+[RAM]  87500 ns: wrote: 01ef with 00
+	[datao] =00
+[ROM]  87500 ns: read 0494: ff
+[RAM]  88000 ns: wrote: 01ee with 08
+	[datao] =08
+[ROM]  88000 ns: read 0493: ff
+[RAM]  88500 ns: wrote: 01ed with 97
+	[datao] =97
+[ROM]  88500 ns: read 8190: ff
+	[datai] =ff
+[ROM]  89000 ns: read 8191: ff
+	[datai] =ff
+	[datai] =ff
+[ROM]  90000 ns: read 0000: ff
+	[datai] =000
+	[datai] =000
+[ROM]  91000 ns: read 0001: ff
+	[datai] =000
+[ROM]  91500 ns: read 0002: ff
+	[datai] =0fc
+[ROM]  92000 ns: read 0003: ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+	[datai] =0ff
+[ROM]  96000 ns: read 0004: ff
+	[datai] =000
+[ROM]  96500 ns: read 0000: ff
+	[datai] =000
+[ROM]  97000 ns: read 0005: ff
+	[datai] =000
+[ROM]  97500 ns: read 0006: ff
+	[datai] =000
+[ROM]  98000 ns: read 0007: ff
+	[datai] =000
+[ROM]  98500 ns: read 0492: ff
+[RAM]  99000 ns: wrote: 01ec with 00
+	[datao] =00
+[ROM]  99000 ns: read 0491: ff
+[RAM]  99500 ns: wrote: 01eb with 08
+	[datao] =08
+[ROM]  99500 ns: read 0490: ff
+[RAM] 100000 ns: wrote: 01ea with 97
+	[datao] =97
+[ROM] 100000 ns: read 8190: ff
+	[datai] =ff
+[ROM] 100500 ns: read 8191: ff
+	[datai] =ff
+	[datai] =ff
+[ROM] 101500 ns: read 0000: ff
+	[datai] =000
+	[datai] =000
+[ROM] 102500 ns: read 0001: ff

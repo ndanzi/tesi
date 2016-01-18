@@ -75,7 +75,7 @@ void tb::check_mutation()
         std::cout << "*****************\n" << "initialize\n";
         initialize_mix();
 
-        muffinMutPort_inj.write(i);
+        muffinMutPort_inj.write(0);
         std::cout << "run\n";
         while(clock_cycles < MAX_CLOCK_CYCLES) {
 

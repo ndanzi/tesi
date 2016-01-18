@@ -75,7 +75,7 @@ int sc_main(int argc, char* argv[])
     sc_core::sc_trace(tf, dut.core_sm_opcode, "core_sm_opcode");
 #endif
 
-	sc_core::sc_start();
+	sc_core::sc_start(103, sc_core::SC_US);
 
 #ifdef TRACE
     sc_core::sc_close_vcd_trace_file(tf);
